@@ -10,6 +10,8 @@ docker compose up --build  # http://localhost:8001, data in the `meridian-data` 
 ```
 Compose starts Meridian with Qdrant and persists the vector index in `qdrant-data`; documents and parsed chunks remain in `meridian-data`. The container runs as a non-root user, exposes `/api/health` for health checks and loads the demo corpus on first start. Qdrant is not published to the host network by default.
 
+The default corpus contains 10 mixed-format files. To add the 100 generated stress notes for a live demo without replacing the defaults, run `.\scripts\upload_stress_docs.ps1` from Windows PowerShell after Compose starts. The script uploads only `.txt`/`.md` files and skips already-indexed duplicates. The volume persists the resulting 110 documents across restarts.
+
 The Qdrant service is free and self-hosted. No vector database account or API key is required. The default LSA embedder also remains offline and does not require an LLM API key. To use the in-memory dense index instead, set `MERIDIAN_VECTOR_STORE=memory`.
 
 ## Configuration (environment variables)

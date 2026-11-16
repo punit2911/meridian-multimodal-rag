@@ -38,7 +38,27 @@ python -m meridian --load-demo
 # open http://127.0.0.1:8000
 ```
 
-Docker alternative: `docker compose up --build` (Tesseract and the free, self-hosted Qdrant vector database are included). The regular Python quick start remains fully offline and uses the in-memory dense index.
+Docker alternative: `docker compose up -d --build` (Tesseract and the free, self-hosted Qdrant vector database are included; open `http://127.0.0.1:8001`). The regular Python quick start remains fully offline and uses the in-memory dense index.
+
+### Docker live demo with 100 additional documents (Windows PowerShell)
+
+The default Docker corpus loads 10 mixed-format demo documents. To add the generated stress notes without deleting them, start the app and upload the 100 `.txt`/`.md` files once; the named Docker volume preserves them across restarts. Re-running the upload is safe because identical files are skipped.
+
+```powershell
+# First setup (build the Meridian image):
+docker compose up -d --build
+```
+
+```powershell
+# Normal starts after the image has been built:
+docker compose up -d --no-build
+docker compose ps
+# Run once per fresh Docker volume; safe to repeat.
+.\scripts\upload_stress_docs.ps1
+Start-Process http://127.0.0.1:8001
+```
+
+Check the loaded corpus with `Invoke-RestMethod http://127.0.0.1:8001/api/health`. On a fresh Docker volume, the 10 defaults plus the uploaded stress corpus should total 110 documents.
 
 ## Using it
 
