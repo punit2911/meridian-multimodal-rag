@@ -3,6 +3,8 @@ services:
     build: .
     ports: ["8001:8000"]
     environment:
+      MERIDIAN_HOST: 0.0.0.0
+      MERIDIAN_PORT: 8000
       MERIDIAN_VECTOR_STORE: qdrant
       MERIDIAN_QDRANT_URL: http://qdrant:6333
     env_file:
@@ -19,7 +21,7 @@ services:
     volumes:
       - qdrant-data:/qdrant/storage
     healthcheck:
-      test: ["CMD-SHELL", "curl -fsS http://localhost:6333/healthz || exit 1"]
+      test: ["CMD-SHELL", "while read -r slot addr remote state rest; do [ \"$$state\" = \"0A\" ] && [ \"$${addr##*:}\" = \"18BD\" ] && exit 0; done < /proc/net/tcp; exit 1"]
       interval: 5s
       timeout: 3s
       retries: 20

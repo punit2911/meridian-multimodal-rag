@@ -6,7 +6,7 @@ See the README quick start. Data (SQLite DB, page renders, figure crops) lives i
 ## Docker
 ```bash
 cp .env.example .env      # optional
-docker compose up --build  # http://localhost:8000, data in the `meridian-data` volume
+docker compose up --build  # http://localhost:8001, data in the `meridian-data` volume
 ```
 Compose starts Meridian with Qdrant and persists the vector index in `qdrant-data`; documents and parsed chunks remain in `meridian-data`. The container runs as a non-root user, exposes `/api/health` for health checks and loads the demo corpus on first start. Qdrant is not published to the host network by default.
 
