@@ -17,7 +17,7 @@ from .config import Settings
 
 
 def main() -> None:
-    ap = argparse.ArgumentParser(description="Meridian multimodal agentic RAG")
+    ap = argparse.ArgumentParser(description="Meridian evidence-grounded multimodal RAG")
     ap.add_argument("--host")
     ap.add_argument("--port", type=int)
     ap.add_argument("--load-demo", action="store_true", help="ingest the demo corpus on start-up if the knowledge base is empty")

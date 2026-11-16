@@ -1,7 +1,7 @@
 # Presenting Meridian on a resume and defending it in interviews
 
 ## Resume bullets (pick 3–4; keep numbers you can explain)
-* Built **Meridian**, a multimodal agentic RAG system for maintenance manuals (PDF tables/charts/scans, DOCX bulletins, CSV logs, alarm-panel photos) with page-level citations, claim-level hallucination verification and calibrated abstention; fully offline-capable, optional Anthropic/OpenAI-compatible LLM mode.
+* Built **Meridian**, a multimodal RAG system for maintenance manuals (PDF tables/charts/scans, DOCX bulletins, CSV logs, alarm-panel photos) with page-level citations, claim-level hallucination verification and calibrated abstention; deterministic offline mode plus an optional tool-using Anthropic/OpenAI-compatible LLM agent.
 * Designed an 8-channel hybrid retriever (BM25, LSA, char-n-gram, entity, structured-fact, visual, PRF, graph PageRank) with weighted RRF, late-interaction reranking and MMR; **Hit@5 100% / MRR 0.88 on held-out questions vs 97% / 0.85 for BM25** in an ablation study.
 * Implemented a **chart digitiser** and **provenance-aware conflict resolver** so the system answers "value at 50% load" from a chart image and prefers a service bulletin over the superseded manual value.
 * Built an evaluation harness (93 golden questions, train/test split, bootstrap CIs, ECE/Brier, hallucination-injection benchmark: **91.7% injected-error detection**) and a 37-test pytest suite including live-server API tests; shipped Docker/CI.

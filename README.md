@@ -1,8 +1,8 @@
-# Meridian — evidence-grounded multimodal agentic RAG
+# Meridian — evidence-grounded multimodal RAG
 
 Meridian answers questions about **industrial maintenance documentation**: PDF manuals (text, tables, charts, diagrams, warnings), scanned pages, Word service bulletins, CSV/XLSX maintenance logs and photos of alarm panels or data plates. Every answer is **cited to a page region**, **verified claim by claim**, and **refused when the evidence is not there**.
 
-It runs **fully offline by default** (no API key, no GPU, no model download). An LLM (Anthropic or any OpenAI-compatible server) can be plugged in for answer writing; its output goes through the same verifier, and the offline composer is the fallback.
+It runs in **deterministic offline mode by default** (no API key, no GPU, no model download). When configured, an optional tool-using LLM agent (Anthropic or any OpenAI-compatible server, including Ollama) can search documents and look up specifications while composing answers. Its output goes through the same verifier, with the offline composer as fallback.
 
 ![Ask tab](docs/ask.png)
 
