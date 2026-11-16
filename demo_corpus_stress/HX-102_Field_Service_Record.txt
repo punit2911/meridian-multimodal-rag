@@ -1,0 +1,33 @@
+# HX-102 Service Record
+
+Document reference: FR-HX102-0003 | Revision C
+
+Archive note: revision lettering is smudged; this copy is for retrieval testing, not operational use.
+
+## 1. Maximum Working Pressure
+
+Maximum working pressure: 33 bar
+
+## 2. Rated Flow
+
+Rated flow : 30 m3/h
+
+FIELD COPY | HX-102 | page 2 | FIELD COPY
+
+## 3. Rated Motor Power
+
+RATED MOTOR POWER = 70 kW
+
+## 4. Maximum Fluid Temperature
+
+Maximum fluid temperature: 135 C    [field copy]
+
+## 5. Impeller Bolt Torque
+
+Impeller bolt torque : 112 Nm
+
+## 6. Intake Filter Replacement Interval
+
+Intake filter replacement interval = 4000 h
+
+FIELD COPY | HX-102 | page 6 | FIELD COPY

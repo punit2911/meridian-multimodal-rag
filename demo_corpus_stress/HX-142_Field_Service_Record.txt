@@ -1,0 +1,35 @@
+# HX-142 Service Record
+
+Document reference: FR-HX142-0043 | Revision C
+
+Archive note: revision lettering is smudged; this copy is for retrieval testing, not operational use.
+
+## 1. Maximum Working Pressure
+
+Maximum working pressure : 18 bar
+
+## 2. Rated Flow
+
+Rated flow = 160 m3/h
+
+FIELD COPY | HX-142 | page 2 | FIELD COPY
+
+## 3. Rated Motor Power
+
+RATED MOTOR POWER: 60 kW
+
+## 4. Maximum Fluid Temperature
+
+Maximum fluid temperature : 105 C    [field copy]
+
+## 5. Impeller Bolt Torque
+
+Impeller bolt torque = 42 Nm
+
+## 6. Intake Filter Replacement Interval
+
+Intake filter replacement interval: 3700 h
+
+FIELD COPY | HX-142 | page 6 | FIELD COPY
+
+Transcription addendum: `l` and `1` were difficult to distinguish in the faded header.

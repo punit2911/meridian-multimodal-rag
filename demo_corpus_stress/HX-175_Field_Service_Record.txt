@@ -1,0 +1,35 @@
+# HX-175 Service Record
+
+Document reference: FR-HX175-0076 | Revision D
+
+Field copy; page edges are worn and the scan has mild skew. Confirm the model plate before maintenance.
+
+## 1. Maximum Working Pressure
+
+Maximum working pressure : 33 bar    [field copy]
+
+FIELD COPY | HX-175 | page 1 | FIELD COPY
+
+## 2. Rated Flow
+
+RATED FLOW = 80 m3/h
+
+## 3. Rated Motor Power
+
+Rated motor power: 14 kW
+
+## 4. Maximum Fluid Temperature
+
+Maximum fluid temperature : 90 C
+
+## 5. Impeller Bolt Torque
+
+Impeller bolt torque = 77 Nm
+
+FIELD COPY | HX-175 | page 5 | FIELD COPY
+
+## 6. Intake Filter Replacement Interval
+
+INTAKE FILTER REPLACEMENT INTERVAL: 4000 h    [field copy]
+
+Transcription addendum: `l` and `1` were difficult to distinguish in the faded header.

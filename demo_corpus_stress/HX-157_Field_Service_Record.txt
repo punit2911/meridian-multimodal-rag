@@ -1,0 +1,33 @@
+# HX-157 Service Record
+
+Document reference: FR-HX157-0058 | Revision B
+
+Archive note: revision lettering is smudged; this copy is for retrieval testing, not operational use.
+
+## 1. Maximum Working Pressure
+
+Maximum working pressure : 23 bar
+
+## 2. Rated Flow
+
+Rated flow = 55 m3/h
+
+## 3. Rated Motor Power
+
+Rated motor power: 10 kW
+
+FIELD COPY | HX-157 | page 3 | FIELD COPY
+
+## 4. Maximum Fluid Temperature
+
+MAXIMUM FLUID TEMPERATURE : 95 C    [field copy]
+
+## 5. Impeller Bolt Torque
+
+Impeller bolt torque = 72 Nm
+
+## 6. Intake Filter Replacement Interval
+
+Intake filter replacement interval: 2100 h
+
+Transcription addendum: `l` and `1` were difficult to distinguish in the faded header.

@@ -1,0 +1,33 @@
+# HX-170 Service Record
+
+Document reference: FR-HX170-0071 | Revision C
+
+Field copy; page edges are worn and the scan has mild skew. Confirm the model plate before maintenance.
+
+## 1. Maximum Working Pressure
+
+Maximum working pressure = 23 bar    [field copy]
+
+## 2. Rated Flow
+
+Rated flow: 230 m3/h
+
+FIELD COPY | HX-170 | page 2 | FIELD COPY
+
+## 3. Rated Motor Power
+
+RATED MOTOR POWER : 16 kW
+
+## 4. Maximum Fluid Temperature
+
+Maximum fluid temperature = 80 C
+
+## 5. Impeller Bolt Torque
+
+Impeller bolt torque: 27 Nm
+
+## 6. Intake Filter Replacement Interval
+
+Intake filter replacement interval : 3300 h    [field copy]
+
+FIELD COPY | HX-170 | page 6 | FIELD COPY

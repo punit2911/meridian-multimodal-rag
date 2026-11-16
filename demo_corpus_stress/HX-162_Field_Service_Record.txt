@@ -1,0 +1,33 @@
+# HX-162 Service Record
+
+Document reference: FR-HX162-0063 | Revision C
+
+Archive note: revision lettering is smudged; this copy is for retrieval testing, not operational use.
+
+## 1. Maximum Working Pressure
+
+Maximum working pressure: 8 bar
+
+## 2. Rated Flow
+
+Rated flow : 195 m3/h
+
+FIELD COPY | HX-162 | page 2 | FIELD COPY
+
+## 3. Rated Motor Power
+
+RATED MOTOR POWER = 12 kW
+
+## 4. Maximum Fluid Temperature
+
+Maximum fluid temperature: 55 C    [field copy]
+
+## 5. Impeller Bolt Torque
+
+Impeller bolt torque : 37 Nm
+
+## 6. Intake Filter Replacement Interval
+
+Intake filter replacement interval = 2100 h
+
+FIELD COPY | HX-162 | page 6 | FIELD COPY

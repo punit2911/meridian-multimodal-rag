@@ -1,0 +1,33 @@
+# HX-155 Service Record
+
+Document reference: FR-HX155-0056 | Revision D
+
+Field copy; page edges are worn and the scan has mild skew. Confirm the model plate before maintenance.
+
+## 1. Maximum Working Pressure
+
+Maximum working pressure = 18 bar    [field copy]
+
+FIELD COPY | HX-155 | page 1 | FIELD COPY
+
+## 2. Rated Flow
+
+RATED FLOW: 185 m3/h
+
+## 3. Rated Motor Power
+
+Rated motor power : 52 kW
+
+## 4. Maximum Fluid Temperature
+
+Maximum fluid temperature = 110 C
+
+## 5. Impeller Bolt Torque
+
+Impeller bolt torque: 97 Nm
+
+FIELD COPY | HX-155 | page 5 | FIELD COPY
+
+## 6. Intake Filter Replacement Interval
+
+INTAKE FILTER REPLACEMENT INTERVAL : 4200 h    [field copy]

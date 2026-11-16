@@ -1,0 +1,33 @@
+# HX-131 Service Record
+
+Document reference: FR-HX131-0032 | Revision D
+
+Technician transcription: table rules were faint, and a repeated footer appears in the source copy.
+
+## 1. Maximum Working Pressure
+
+Maximum working pressure = 18 bar
+
+FIELD COPY | HX-131 | page 1 | FIELD COPY
+
+## 2. Rated Flow
+
+RATED FLOW: 30 m3/h
+
+## 3. Rated Motor Power
+
+Rated motor power : 82 kW
+
+## 4. Maximum Fluid Temperature
+
+Maximum fluid temperature = 155 C
+
+## 5. Impeller Bolt Torque
+
+Impeller bolt torque: 112 Nm    [field copy]
+
+FIELD COPY | HX-131 | page 5 | FIELD COPY
+
+## 6. Intake Filter Replacement Interval
+
+INTAKE FILTER REPLACEMENT INTERVAL : 1400 h

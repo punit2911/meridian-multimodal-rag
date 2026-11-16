@@ -1,0 +1,31 @@
+# HX-137 Service Record
+
+Document reference: FR-HX137-0038 | Revision B
+
+Archive note: revision lettering is smudged; this copy is for retrieval testing, not operational use.
+
+## 1. Maximum Working Pressure
+
+Maximum working pressure = 18 bar
+
+## 2. Rated Flow
+
+Rated flow: 70 m3/h
+
+## 3. Rated Motor Power
+
+Rated motor power : 86 kW
+
+FIELD COPY | HX-137 | page 3 | FIELD COPY
+
+## 4. Maximum Fluid Temperature
+
+MAXIMUM FLUID TEMPERATURE = 170 C    [field copy]
+
+## 5. Impeller Bolt Torque
+
+Impeller bolt torque: 67 Nm
+
+## 6. Intake Filter Replacement Interval
+
+Intake filter replacement interval : 2400 h

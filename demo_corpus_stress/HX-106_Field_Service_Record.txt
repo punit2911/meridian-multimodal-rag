@@ -1,0 +1,35 @@
+# HX-106 Service Record
+
+Document reference: FR-HX106-0007 | Revision C
+
+Technician transcription: table rules were faint, and a repeated footer appears in the source copy.
+
+## 1. Maximum Working Pressure
+
+Maximum working pressure : 8 bar
+
+## 2. Rated Flow
+
+Rated flow = 175 m3/h
+
+FIELD COPY | HX-106 | page 2 | FIELD COPY
+
+## 3. Rated Motor Power
+
+RATED MOTOR POWER: 30 kW
+
+## 4. Maximum Fluid Temperature
+
+Maximum fluid temperature : 80 C
+
+## 5. Impeller Bolt Torque
+
+Impeller bolt torque = 47 Nm    [field copy]
+
+## 6. Intake Filter Replacement Interval
+
+Intake filter replacement interval: 4100 h
+
+FIELD COPY | HX-106 | page 6 | FIELD COPY
+
+Transcription addendum: `l` and `1` were difficult to distinguish in the faded header.

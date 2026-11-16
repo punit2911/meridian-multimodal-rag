@@ -1,0 +1,33 @@
+# HX-111 Service Record
+
+Document reference: FR-HX111-0012 | Revision D
+
+Technician transcription: table rules were faint, and a repeated footer appears in the source copy.
+
+## 1. Maximum Working Pressure
+
+Maximum working pressure: 23 bar
+
+FIELD COPY | HX-111 | page 1 | FIELD COPY
+
+## 2. Rated Flow
+
+RATED FLOW : 65 m3/h
+
+## 3. Rated Motor Power
+
+Rated motor power = 26 kW
+
+## 4. Maximum Fluid Temperature
+
+Maximum fluid temperature: 155 C
+
+## 5. Impeller Bolt Torque
+
+Impeller bolt torque : 107 Nm    [field copy]
+
+FIELD COPY | HX-111 | page 5 | FIELD COPY
+
+## 6. Intake Filter Replacement Interval
+
+INTAKE FILTER REPLACEMENT INTERVAL = 2400 h

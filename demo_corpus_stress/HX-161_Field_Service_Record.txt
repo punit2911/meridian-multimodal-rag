@@ -1,0 +1,31 @@
+# HX-161 Service Record
+
+Document reference: FR-HX161-0062 | Revision B
+
+Technician transcription: table rules were faint, and a repeated footer appears in the source copy.
+
+## 1. Maximum Working Pressure
+
+Maximum working pressure = 23 bar
+
+## 2. Rated Flow
+
+Rated flow: 65 m3/h
+
+## 3. Rated Motor Power
+
+Rated motor power : 44 kW
+
+FIELD COPY | HX-161 | page 3 | FIELD COPY
+
+## 4. Maximum Fluid Temperature
+
+MAXIMUM FLUID TEMPERATURE = 60 C
+
+## 5. Impeller Bolt Torque
+
+Impeller bolt torque: 37 Nm    [field copy]
+
+## 6. Intake Filter Replacement Interval
+
+Intake filter replacement interval : 2200 h

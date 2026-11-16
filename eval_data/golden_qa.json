@@ -1,0 +1,2322 @@
+{
+  "version": 1,
+  "questions": [
+    {
+      "type": "spec",
+      "question": "What is the maximum flow rate of the HX-200?",
+      "gold_evidence": [
+        {
+          "doc": "hx_200_service_manual",
+          "contains": [
+            "maximum flow"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "num",
+          "value": 120,
+          "unit": "m3/h",
+          "tol": 0.01
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q001",
+      "split": "train"
+    },
+    {
+      "type": "spec",
+      "question": "How much head can the HX-200 pump generate at most?",
+      "gold_evidence": [
+        {
+          "doc": "hx_200_service_manual",
+          "contains": [
+            "maximum head"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "num",
+          "value": 58,
+          "unit": "m",
+          "tol": 0.01
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q002",
+      "split": "test"
+    },
+    {
+      "type": "spec",
+      "question": "What motor power does the HX-200 use?",
+      "gold_evidence": [
+        {
+          "doc": "hx_200_service_manual",
+          "contains": [
+            "rated motor power"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "num",
+          "value": 22,
+          "unit": "kw",
+          "tol": 0.01
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q003",
+      "split": "train"
+    },
+    {
+      "type": "spec",
+      "question": "What's the top fluid temperature the HX-200 can handle?",
+      "gold_evidence": [
+        {
+          "doc": "hx_200_service_manual",
+          "contains": [
+            "maximum fluid temperature"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "num",
+          "value": 140,
+          "unit": "c",
+          "tol": 0.01
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q004",
+      "split": "test"
+    },
+    {
+      "type": "spec",
+      "question": "How heavy is the HX-200?",
+      "gold_evidence": [
+        {
+          "doc": "hx_200_service_manual",
+          "contains": [
+            "pump weight"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "num",
+          "value": 185,
+          "unit": "kg",
+          "tol": 0.01
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q005",
+      "split": "train"
+    },
+    {
+      "type": "spec",
+      "question": "What is the rated speed of the HX-200?",
+      "gold_evidence": [
+        {
+          "doc": "hx_200_service_manual",
+          "contains": [
+            "rated speed"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "num",
+          "value": 2950,
+          "unit": "rpm",
+          "tol": 0.01
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q006",
+      "split": "test"
+    },
+    {
+      "type": "spec",
+      "question": "How noisy is the HX-200 pump?",
+      "gold_evidence": [
+        {
+          "doc": "hx_200_service_manual",
+          "contains": [
+            "noise level"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "num",
+          "value": 78,
+          "unit": "dba",
+          "tol": 0.01
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q007",
+      "split": "train"
+    },
+    {
+      "type": "spec",
+      "question": "What is the maximum working pressure of the HX-200?",
+      "gold_evidence": [
+        {
+          "doc": "hx_200_service_manual",
+          "contains": [
+            "maximum working pressure"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "num",
+          "value": 16,
+          "unit": "bar",
+          "tol": 0.01
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q008",
+      "split": "test"
+    },
+    {
+      "type": "spec",
+      "question": "What is the free air delivery of the HX-500 compressor?",
+      "gold_evidence": [
+        {
+          "doc": "hx_500_service_manual",
+          "contains": [
+            "free air delivery"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "num",
+          "value": 18.5,
+          "unit": "m3/min",
+          "tol": 0.01
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q009",
+      "split": "train"
+    },
+    {
+      "type": "spec",
+      "question": "How many litres of oil does the HX-500 hold?",
+      "gold_evidence": [
+        {
+          "doc": "hx_500_service_manual",
+          "contains": [
+            "oil capacity"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "num",
+          "value": 38,
+          "unit": "l",
+          "tol": 0.01
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q010",
+      "split": "test"
+    },
+    {
+      "type": "spec",
+      "question": "At what discharge temperature does the HX-500 trip?",
+      "gold_evidence": [
+        {
+          "doc": "hx_500_service_manual",
+          "contains": [
+            "discharge temperature trip"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "num",
+          "value": 105,
+          "unit": "c",
+          "tol": 0.01
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q011",
+      "split": "train"
+    },
+    {
+      "type": "spec",
+      "question": "What is the weight of the HX-500?",
+      "gold_evidence": [
+        {
+          "doc": "hx_500_service_manual",
+          "contains": [
+            "weight"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "num",
+          "value": 1450,
+          "unit": "kg",
+          "tol": 0.01
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q012",
+      "split": "test"
+    },
+    {
+      "type": "spec",
+      "question": "What is the HX-500 motor rating?",
+      "gold_evidence": [
+        {
+          "doc": "hx_500_service_manual",
+          "contains": [
+            "rated motor power"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "num",
+          "value": 110,
+          "unit": "kw",
+          "tol": 0.01
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q013",
+      "split": "train"
+    },
+    {
+      "type": "spec",
+      "question": "What is the maximum working pressure of the HX-500?",
+      "gold_evidence": [
+        {
+          "doc": "hx_500_service_manual",
+          "contains": [
+            "maximum working pressure"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "num",
+          "value": 10,
+          "unit": "bar",
+          "tol": 0.01
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q014",
+      "split": "test"
+    },
+    {
+      "type": "spec",
+      "question": "What pressure can the HX-900 hydraulic unit reach in normal operation?",
+      "gold_evidence": [
+        {
+          "doc": "hx_900_service_manual",
+          "contains": [
+            "maximum working pressure"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "num",
+          "value": 350,
+          "unit": "bar",
+          "tol": 0.01
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q015",
+      "split": "train"
+    },
+    {
+      "type": "spec",
+      "question": "What is the relief valve setting on the HX-900?",
+      "gold_evidence": [
+        {
+          "doc": "hx_900_service_manual",
+          "contains": [
+            "relief valve setting"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "num",
+          "value": 360,
+          "unit": "bar",
+          "tol": 0.01
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q016",
+      "split": "test"
+    },
+    {
+      "type": "spec",
+      "question": "What is the tank capacity of the HX-900 power unit?",
+      "gold_evidence": [
+        {
+          "doc": "hx_900_service_manual",
+          "contains": [
+            "tank capacity"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "num",
+          "value": 400,
+          "unit": "l",
+          "tol": 0.01
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q017",
+      "split": "train"
+    },
+    {
+      "type": "spec",
+      "question": "Which oil grade should the HX-900 use?",
+      "gold_evidence": [
+        {
+          "doc": "hx_900_service_manual",
+          "contains": [
+            "oil grade"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "text",
+          "values": [
+            "ISO VG 46"
+          ]
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q018",
+      "split": "test"
+    },
+    {
+      "type": "spec",
+      "question": "What filtration rating does the HX-900 have?",
+      "gold_evidence": [
+        {
+          "doc": "hx_900_service_manual",
+          "contains": [
+            "filtration rating"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "num",
+          "value": 10,
+          "unit": "um",
+          "tol": 0.01
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q019",
+      "split": "train"
+    },
+    {
+      "type": "spec",
+      "question": "What is the rated flow of the HX-900?",
+      "gold_evidence": [
+        {
+          "doc": "hx_900_service_manual",
+          "contains": [
+            "rated flow"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "num",
+          "value": 90,
+          "unit": "l/min",
+          "tol": 0.01
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q020",
+      "split": "test"
+    },
+    {
+      "type": "spec",
+      "question": "How much does the HX-900 weigh?",
+      "gold_evidence": [
+        {
+          "doc": "hx_900_service_manual",
+          "contains": [
+            "weight"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "num",
+          "value": 920,
+          "unit": "kg",
+          "tol": 0.01
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q021",
+      "split": "train"
+    },
+    {
+      "type": "spec",
+      "question": "What's the maximum oil temperature for the HX-900?",
+      "gold_evidence": [
+        {
+          "doc": "hx_900_service_manual",
+          "contains": [
+            "maximum oil temperature"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "num",
+          "value": 65,
+          "unit": "c",
+          "tol": 0.01
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q022",
+      "split": "test"
+    },
+    {
+      "type": "ambiguous",
+      "question": "What is the maximum working pressure?",
+      "gold_evidence": [
+        {
+          "doc": "hx_200_service_manual",
+          "contains": [
+            "maximum working pressure"
+          ]
+        },
+        {
+          "doc": "hx_500_service_manual",
+          "contains": [
+            "maximum working pressure"
+          ]
+        },
+        {
+          "doc": "hx_900_service_manual",
+          "contains": [
+            "maximum working pressure"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "num",
+          "value": 16,
+          "unit": "bar",
+          "tol": 0.01
+        },
+        {
+          "kind": "num",
+          "value": 10,
+          "unit": "bar",
+          "tol": 0.01
+        },
+        {
+          "kind": "num",
+          "value": 350,
+          "unit": "bar",
+          "tol": 0.01
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "no model given: must answer per product",
+      "id": "q023",
+      "split": "train"
+    },
+    {
+      "type": "table",
+      "question": "What torque should the HX-200 casing bolts be tightened to?",
+      "gold_evidence": [
+        {
+          "doc": "hx_200_service_manual",
+          "contains": [
+            "casing bolt"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "num",
+          "value": 110,
+          "unit": "nm",
+          "tol": 0.01
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q024",
+      "split": "train"
+    },
+    {
+      "type": "table",
+      "question": "What is the tightening torque for the HX-500 oil drain plug?",
+      "gold_evidence": [
+        {
+          "doc": "hx_500_service_manual",
+          "contains": [
+            "oil drain plug"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "num",
+          "value": 50,
+          "unit": "nm",
+          "tol": 0.01
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q025",
+      "split": "test"
+    },
+    {
+      "type": "table",
+      "question": "What torque applies to the HX-500 airend mounting bolts?",
+      "gold_evidence": [
+        {
+          "doc": "hx_500_service_manual",
+          "contains": [
+            "airend mounting bolt"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "num",
+          "value": 210,
+          "unit": "nm",
+          "tol": 0.01
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q026",
+      "split": "train"
+    },
+    {
+      "type": "table",
+      "question": "What is the HX-900 pump mounting bolt torque?",
+      "gold_evidence": [
+        {
+          "doc": "hx_900_service_manual",
+          "contains": [
+            "pump mounting bolt"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "num",
+          "value": 200,
+          "unit": "nm",
+          "tol": 0.01
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q027",
+      "split": "test"
+    },
+    {
+      "type": "table",
+      "question": "How often should the HX-500 oil filter be replaced?",
+      "gold_evidence": [
+        {
+          "doc": "hx_500_service_manual",
+          "contains": [
+            "replace oil filter"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "num",
+          "value": 2000,
+          "unit": "h",
+          "tol": 0.01
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q028",
+      "split": "train"
+    },
+    {
+      "type": "table",
+      "question": "What is the replacement interval for the HX-200 mechanical seal?",
+      "gold_evidence": [
+        {
+          "doc": "hx_200_service_manual",
+          "contains": [
+            "replace mechanical seal"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "num",
+          "value": 8000,
+          "unit": "h",
+          "tol": 0.01
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q029",
+      "split": "test"
+    },
+    {
+      "type": "table",
+      "question": "How frequently should HX-900 oil be sampled for contamination analysis?",
+      "gold_evidence": [
+        {
+          "doc": "hx_900_service_manual",
+          "contains": [
+            "sample oil"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "num",
+          "value": 500,
+          "unit": "h",
+          "tol": 0.01
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q030",
+      "split": "train"
+    },
+    {
+      "type": "table",
+      "question": "When should the HX-500 oil separator element be replaced?",
+      "gold_evidence": [
+        {
+          "doc": "hx_500_service_manual",
+          "contains": [
+            "separator element"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "num",
+          "value": 6000,
+          "unit": "h",
+          "tol": 0.01
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q031",
+      "split": "test"
+    },
+    {
+      "type": "table",
+      "question": "How often do the HX-200 bearings need lubrication?",
+      "gold_evidence": [
+        {
+          "doc": "hx_200_service_manual",
+          "contains": [
+            "lubricate bearings"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "num",
+          "value": 2000,
+          "unit": "h",
+          "tol": 0.01
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q032",
+      "split": "train"
+    },
+    {
+      "type": "table",
+      "question": "What is the torque for the HX-900 relief valve cartridge?",
+      "gold_evidence": [
+        {
+          "doc": "hx_900_service_manual",
+          "contains": [
+            "relief valve cartridge"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "num",
+          "value": 80,
+          "unit": "nm",
+          "tol": 0.01
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q033",
+      "split": "test"
+    },
+    {
+      "type": "troubleshooting",
+      "question": "What does error E-47 mean on the HX-200?",
+      "gold_evidence": [
+        {
+          "doc": "hx_200_service_manual",
+          "contains": [
+            "e-47",
+            "low suction pressure"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "text",
+          "values": [
+            "low suction pressure"
+          ]
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q034",
+      "split": "train"
+    },
+    {
+      "type": "troubleshooting",
+      "question": "My HX-500 shows E-47. What should I do?",
+      "gold_evidence": [
+        {
+          "doc": "hx_500_service_manual",
+          "contains": [
+            "e-47",
+            "separator"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "text",
+          "values": [
+            "oil separator element"
+          ]
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q035",
+      "split": "test"
+    },
+    {
+      "type": "troubleshooting",
+      "question": "The HX-900 displays E-47, what is wrong?",
+      "gold_evidence": [
+        {
+          "doc": "hx_900_service_manual",
+          "contains": [
+            "e-47",
+            "return filter"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "text",
+          "values": [
+            "return filter"
+          ]
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q036",
+      "split": "train"
+    },
+    {
+      "type": "troubleshooting",
+      "question": "HX-200 motor overload alarm E-12: what is the likely cause?",
+      "gold_evidence": [
+        {
+          "doc": "hx_200_service_manual",
+          "contains": [
+            "e-12"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "text",
+          "values": [
+            "blocked impeller"
+          ]
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q037",
+      "split": "test"
+    },
+    {
+      "type": "troubleshooting",
+      "question": "The HX-500 shut down because the air got too hot. What should I check?",
+      "gold_evidence": [
+        {
+          "doc": "hx_500_service_manual",
+          "contains": [
+            "e-05"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "text",
+          "values": [
+            "oil level",
+            "cooler"
+          ]
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q038",
+      "split": "train"
+    },
+    {
+      "type": "troubleshooting",
+      "question": "My HX-200 is leaking at the seal and shows a fault. What is the remedy?",
+      "gold_evidence": [
+        {
+          "doc": "hx_200_service_manual",
+          "contains": [
+            "e-52"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "text",
+          "values": [
+            "replace the mechanical seal"
+          ]
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q039",
+      "split": "test"
+    },
+    {
+      "type": "troubleshooting",
+      "question": "The HX-200 is vibrating heavily. What could be causing it?",
+      "gold_evidence": [
+        {
+          "doc": "hx_200_service_manual",
+          "contains": [
+            "e-63"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "text",
+          "values": [
+            "imbalance",
+            "misaligned"
+          ]
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q040",
+      "split": "train"
+    },
+    {
+      "type": "troubleshooting",
+      "question": "HX-900 oil level warning: which alarm is that and what is the remedy?",
+      "gold_evidence": [
+        {
+          "doc": "hx_900_service_manual",
+          "contains": [
+            "e-09"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "text",
+          "values": [
+            "refill"
+          ]
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q041",
+      "split": "test"
+    },
+    {
+      "type": "troubleshooting",
+      "question": "The HX-200 keeps losing prime and the pump is cavitating. Which alarm applies?",
+      "gold_evidence": [
+        {
+          "doc": "hx_200_service_manual",
+          "contains": [
+            "e-47"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "text",
+          "values": [
+            "suction"
+          ]
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q042",
+      "split": "train"
+    },
+    {
+      "type": "troubleshooting",
+      "question": "How do I clear alarm E-71 on the HX-500?",
+      "gold_evidence": [
+        {
+          "doc": "hx_500_service_manual",
+          "contains": [
+            "e-71"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "text",
+          "values": [
+            "refill"
+          ]
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q043",
+      "split": "test"
+    },
+    {
+      "type": "procedure",
+      "question": "How do I replace the mechanical seal on the HX-200?",
+      "gold_evidence": [
+        {
+          "doc": "hx_200_service_manual",
+          "contains": [
+            "gland bolts"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "text",
+          "values": [
+            "gland bolts"
+          ]
+        },
+        {
+          "kind": "text",
+          "values": [
+            "lock out"
+          ]
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q044",
+      "split": "train"
+    },
+    {
+      "type": "procedure",
+      "question": "What are the steps for changing the compressor oil on the HX-500?",
+      "gold_evidence": [
+        {
+          "doc": "hx_500_service_manual",
+          "contains": [
+            "container of at least 40"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "text",
+          "values": [
+            "drain plug"
+          ]
+        },
+        {
+          "kind": "text",
+          "values": [
+            "sight glass"
+          ]
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q045",
+      "split": "test"
+    },
+    {
+      "type": "procedure",
+      "question": "How do I replace the impeller on the HX-200?",
+      "gold_evidence": [
+        {
+          "doc": "hx_200_service_manual",
+          "contains": [
+            "puller tool"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "text",
+          "values": [
+            "puller",
+            "pt-200"
+          ]
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q046",
+      "split": "train"
+    },
+    {
+      "type": "procedure",
+      "question": "How do I start the HX-200 for the first time?",
+      "gold_evidence": [
+        {
+          "doc": "hx_200_service_manual",
+          "contains": [
+            "direction of rotation"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "text",
+          "values": [
+            "direction of rotation"
+          ]
+        },
+        {
+          "kind": "text",
+          "values": [
+            "prime"
+          ]
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q047",
+      "split": "test"
+    },
+    {
+      "type": "procedure",
+      "question": "How do I replace the return filter on the HX-900?",
+      "gold_evidence": [
+        {
+          "doc": "hx_900_service_manual",
+          "contains": [
+            "drip tray"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "text",
+          "values": [
+            "drip tray"
+          ]
+        },
+        {
+          "kind": "text",
+          "values": [
+            "o-ring"
+          ]
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q048",
+      "split": "train"
+    },
+    {
+      "type": "procedure",
+      "question": "What safety precautions apply before servicing the HX-500?",
+      "gold_evidence": [
+        {
+          "doc": "hx_500_service_manual",
+          "contains": [
+            "depressurise the system"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "text",
+          "values": [
+            "lock out"
+          ]
+        },
+        {
+          "kind": "text",
+          "values": [
+            "depressurise"
+          ]
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q049",
+      "split": "test"
+    },
+    {
+      "type": "procedure",
+      "question": "How do I bleed air out of the HX-900 hydraulic circuit?",
+      "gold_evidence": [
+        {
+          "doc": "hx_900_service_manual",
+          "contains": [
+            "bleed screw"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "text",
+          "values": [
+            "bleed screw"
+          ]
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q050",
+      "split": "train"
+    },
+    {
+      "type": "procedure",
+      "question": "How should the HX-200 suction piping be arranged?",
+      "gold_evidence": [
+        {
+          "doc": "hx_200_service_manual",
+          "contains": [
+            "five times the pipe diameter"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "text",
+          "values": [
+            "five times"
+          ]
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q051",
+      "split": "test"
+    },
+    {
+      "type": "text",
+      "question": "How should the HX-200 maintenance intervals change for abrasive fluids?",
+      "gold_evidence": [
+        {
+          "doc": "hx_200_service_manual",
+          "contains": [
+            "abrasive"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "text",
+          "values": [
+            "halve"
+          ]
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q052",
+      "split": "train"
+    },
+    {
+      "type": "text",
+      "question": "How level does the HX-200 baseplate have to be?",
+      "gold_evidence": [
+        {
+          "doc": "hx_200_service_manual",
+          "contains": [
+            "0.2 mm per metre"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "num",
+          "value": 0.2,
+          "unit": "mm",
+          "tol": 0.01
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q053",
+      "split": "test"
+    },
+    {
+      "type": "text",
+      "question": "At what leakage rate should the HX-200 mechanical seal be replaced?",
+      "gold_evidence": [
+        {
+          "doc": "hx_200_service_manual",
+          "contains": [
+            "10 drops per minute"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "num",
+          "value": 10,
+          "unit": null,
+          "tol": 0.01
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q054",
+      "split": "train"
+    },
+    {
+      "type": "chart",
+      "question": "According to the performance curve, what head does the HX-200 deliver at 80 m3/h?",
+      "gold_evidence": [
+        {
+          "doc": "hx_200_service_manual",
+          "contains": [
+            "performance curve"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "num",
+          "value": 39,
+          "unit": null,
+          "tol": 0.07
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q055",
+      "split": "train"
+    },
+    {
+      "type": "chart",
+      "question": "What is the head of the HX-200 at a flow of 40 m3/h?",
+      "gold_evidence": [
+        {
+          "doc": "hx_200_service_manual",
+          "contains": [
+            "performance curve"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "num",
+          "value": 53,
+          "unit": null,
+          "tol": 0.07
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q056",
+      "split": "test"
+    },
+    {
+      "type": "chart",
+      "question": "Read the HX-200 curve: what head at 100 m3/h?",
+      "gold_evidence": [
+        {
+          "doc": "hx_200_service_manual",
+          "contains": [
+            "performance curve"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "num",
+          "value": 28,
+          "unit": null,
+          "tol": 0.08
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q057",
+      "split": "train"
+    },
+    {
+      "type": "chart",
+      "question": "What head does the HX-200 give at 70 m3/h?",
+      "gold_evidence": [
+        {
+          "doc": "hx_200_service_manual",
+          "contains": [
+            "performance curve"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "num",
+          "value": 43,
+          "unit": null,
+          "tol": 0.08
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "needs interpolation",
+      "id": "q058",
+      "split": "test"
+    },
+    {
+      "type": "chart",
+      "question": "What is the HX-500 specific power at 50% load?",
+      "gold_evidence": [
+        {
+          "doc": "hx_500_service_manual",
+          "contains": [
+            "specific power"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "num",
+          "value": 6.6,
+          "unit": null,
+          "tol": 0.07
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q059",
+      "split": "train"
+    },
+    {
+      "type": "chart",
+      "question": "What is the specific power of the HX-500 at full load?",
+      "gold_evidence": [
+        {
+          "doc": "hx_500_service_manual",
+          "contains": [
+            "specific power"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "num",
+          "value": 6.0,
+          "unit": null,
+          "tol": 0.07
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q060",
+      "split": "test"
+    },
+    {
+      "type": "chart",
+      "question": "How hot is the HX-900 oil after 60 minutes of warm-up?",
+      "gold_evidence": [
+        {
+          "doc": "hx_900_service_manual",
+          "contains": [
+            "oil temperature"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "num",
+          "value": 56,
+          "unit": null,
+          "tol": 0.06
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q061",
+      "split": "train"
+    },
+    {
+      "type": "figure",
+      "question": "Show me the exploded view of the HX-200 pump.",
+      "gold_evidence": [
+        {
+          "doc": "hx_200_service_manual",
+          "contains": [
+            "exploded view"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "text",
+          "values": [
+            "figure 1"
+          ]
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q062",
+      "split": "train"
+    },
+    {
+      "type": "figure",
+      "question": "Where can I find the hydraulic circuit schematic for the HX-900?",
+      "gold_evidence": [
+        {
+          "doc": "hx_900_service_manual",
+          "contains": [
+            "hydraulic circuit"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "text",
+          "values": [
+            "figure 1"
+          ]
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q063",
+      "split": "test"
+    },
+    {
+      "type": "figure",
+      "question": "Is there a diagram showing the air and oil flow of the HX-500?",
+      "gold_evidence": [
+        {
+          "doc": "hx_500_service_manual",
+          "contains": [
+            "flow diagram"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "text",
+          "values": [
+            "figure 1"
+          ]
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q064",
+      "split": "train"
+    },
+    {
+      "type": "multihop",
+      "question": "What tightening torque is specified for the fasteners in the HX-200 mechanical seal replacement procedure?",
+      "gold_evidence": [
+        {
+          "doc": "hx_200_service_manual",
+          "contains": [
+            "gland bolts"
+          ]
+        },
+        {
+          "doc": "hx_200_service_manual",
+          "contains": [
+            "gland bolt"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "num",
+          "value": 25,
+          "unit": "nm",
+          "tol": 0.01
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q065",
+      "split": "train"
+    },
+    {
+      "type": "multihop",
+      "question": "Which torque applies to the plug that is refitted in the HX-500 oil change procedure?",
+      "gold_evidence": [
+        {
+          "doc": "hx_500_service_manual",
+          "contains": [
+            "container of at least 40"
+          ]
+        },
+        {
+          "doc": "hx_500_service_manual",
+          "contains": [
+            "oil drain plug"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "num",
+          "value": 50,
+          "unit": "nm",
+          "tol": 0.01
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q066",
+      "split": "test"
+    },
+    {
+      "type": "multihop",
+      "question": "In the HX-200 impeller replacement procedure, what torque goes on the casing bolts?",
+      "gold_evidence": [
+        {
+          "doc": "hx_200_service_manual",
+          "contains": [
+            "casing bolt"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "num",
+          "value": 110,
+          "unit": "nm",
+          "tol": 0.01
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q067",
+      "split": "train"
+    },
+    {
+      "type": "multihop",
+      "question": "Which alarm code appears when the HX-200 seal fails, and which section describes the fix?",
+      "gold_evidence": [
+        {
+          "doc": "hx_200_service_manual",
+          "contains": [
+            "e-52"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "text",
+          "values": [
+            "e-52"
+          ]
+        },
+        {
+          "kind": "text",
+          "values": [
+            "6.1"
+          ]
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q068",
+      "split": "test"
+    },
+    {
+      "type": "multihop",
+      "question": "Alarm E-31 on the HX-200 points to lubrication. How often is that task due?",
+      "gold_evidence": [
+        {
+          "doc": "hx_200_service_manual",
+          "contains": [
+            "e-31"
+          ]
+        },
+        {
+          "doc": "hx_200_service_manual",
+          "contains": [
+            "lubricate bearings"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "num",
+          "value": 2000,
+          "unit": "h",
+          "tol": 0.01
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q069",
+      "split": "train"
+    },
+    {
+      "type": "conflict",
+      "question": "What torque should I use for the HX-200 impeller bolt?",
+      "gold_evidence": [
+        {
+          "doc": "hx_200_service_manual",
+          "contains": [
+            "impeller bolt"
+          ]
+        },
+        {
+          "doc": "sb_2026_07_hx_200_impeller_bolt_torque",
+          "contains": [
+            "impeller bolt"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "num",
+          "value": 52,
+          "unit": "nm",
+          "tol": 0.01
+        },
+        {
+          "kind": "text",
+          "values": [
+            "sb-2026-07"
+          ]
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "manual says 45, bulletin supersedes with 52",
+      "id": "q070",
+      "split": "train"
+    },
+    {
+      "type": "conflict",
+      "question": "Is 45 Nm the right tightening torque for the HX-200 impeller bolt?",
+      "gold_evidence": [
+        {
+          "doc": "sb_2026_07_hx_200_impeller_bolt_torque",
+          "contains": [
+            "impeller bolt"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "num",
+          "value": 52,
+          "unit": "nm",
+          "tol": 0.01
+        },
+        {
+          "kind": "text",
+          "values": [
+            "sb-2026-07"
+          ]
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "false premise caused by superseded value",
+      "id": "q071",
+      "split": "test"
+    },
+    {
+      "type": "conflict",
+      "question": "Do I need threadlocker on the HX-200 impeller bolt?",
+      "gold_evidence": [
+        {
+          "doc": "sb_2026_07_hx_200_impeller_bolt_torque",
+          "contains": [
+            "threadlocker"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "text",
+          "values": [
+            "loctite 243"
+          ]
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q072",
+      "split": "train"
+    },
+    {
+      "type": "false_premise",
+      "question": "The HX-500 maximum working pressure is 16 bar, correct?",
+      "gold_evidence": [
+        {
+          "doc": "hx_500_service_manual",
+          "contains": [
+            "maximum working pressure"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "num",
+          "value": 10,
+          "unit": "bar",
+          "tol": 0.01
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q073",
+      "split": "train"
+    },
+    {
+      "type": "false_premise",
+      "question": "I read that the HX-900 tank holds 250 L. Is that right?",
+      "gold_evidence": [
+        {
+          "doc": "hx_900_service_manual",
+          "contains": [
+            "tank capacity"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "num",
+          "value": 400,
+          "unit": "l",
+          "tol": 0.01
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q074",
+      "split": "test"
+    },
+    {
+      "type": "false_premise",
+      "question": "Is the HX-200 rated for fluid at 150 °C?",
+      "gold_evidence": [
+        {
+          "doc": "hx_200_service_manual",
+          "contains": [
+            "maximum fluid temperature"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "num",
+          "value": 140,
+          "unit": "c",
+          "tol": 0.01
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q075",
+      "split": "train"
+    },
+    {
+      "type": "analytics",
+      "question": "How many times has alarm E-47 been logged for HX-200 units?",
+      "gold_evidence": [],
+      "answer_facts": [
+        {
+          "kind": "num",
+          "value": 33,
+          "unit": null,
+          "tol": 0.01
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q076",
+      "split": "train"
+    },
+    {
+      "type": "analytics",
+      "question": "What is the total downtime recorded for HX-500 units?",
+      "gold_evidence": [],
+      "answer_facts": [
+        {
+          "kind": "num",
+          "value": 91.5,
+          "unit": null,
+          "tol": 0.005
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q077",
+      "split": "test"
+    },
+    {
+      "type": "analytics",
+      "question": "Which alarm code occurs most often in the maintenance log?",
+      "gold_evidence": [],
+      "answer_facts": [
+        {
+          "kind": "text",
+          "values": [
+            "e-47"
+          ]
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q078",
+      "split": "train"
+    },
+    {
+      "type": "analytics",
+      "question": "What is the average downtime for E-52 events?",
+      "gold_evidence": [],
+      "answer_facts": [
+        {
+          "kind": "num",
+          "value": 6.31,
+          "unit": null,
+          "tol": 0.01
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q079",
+      "split": "test"
+    },
+    {
+      "type": "scanned",
+      "question": "How many starts per hour are permitted for the HX-200?",
+      "gold_evidence": [
+        {
+          "doc": "hx_200_field_card_scan",
+          "contains": [
+            "starts per hour"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "num",
+          "value": 6,
+          "unit": null,
+          "tol": 0.01
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q080",
+      "split": "train"
+    },
+    {
+      "type": "scanned",
+      "question": "How much liquid is needed to prime the HX-200 casing?",
+      "gold_evidence": [
+        {
+          "doc": "hx_200_field_card_scan",
+          "contains": [
+            "priming volume"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "num",
+          "value": 14,
+          "unit": "l",
+          "tol": 0.01
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q081",
+      "split": "test"
+    },
+    {
+      "type": "scanned",
+      "question": "How much seal flush water does the HX-200 need?",
+      "gold_evidence": [
+        {
+          "doc": "hx_200_field_card_scan",
+          "contains": [
+            "seal flush"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "num",
+          "value": 2,
+          "unit": "l/min",
+          "tol": 0.01
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q082",
+      "split": "train"
+    },
+    {
+      "type": "scanned",
+      "question": "At what suction pressure should the HX-200 be stopped?",
+      "gold_evidence": [
+        {
+          "doc": "hx_200_field_card_scan",
+          "contains": [
+            "suction pressure"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "num",
+          "value": 0.5,
+          "unit": "bar",
+          "tol": 0.01
+        }
+      ],
+      "expect_abstain": false,
+      "image": null,
+      "note": "",
+      "id": "q083",
+      "split": "test"
+    },
+    {
+      "type": "image",
+      "question": "What does this alarm mean and what should I do?",
+      "gold_evidence": [
+        {
+          "doc": "hx_200_service_manual",
+          "contains": [
+            "e-47",
+            "low suction pressure"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "text",
+          "values": [
+            "suction"
+          ]
+        }
+      ],
+      "expect_abstain": false,
+      "image": "images/photo_alarm_E47_hx200.png",
+      "note": "",
+      "id": "q084",
+      "split": "train"
+    },
+    {
+      "type": "image",
+      "question": "What should I do about this alarm?",
+      "gold_evidence": [
+        {
+          "doc": "hx_500_service_manual",
+          "contains": [
+            "e-47",
+            "separator"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "text",
+          "values": [
+            "oil separator element"
+          ]
+        }
+      ],
+      "expect_abstain": false,
+      "image": "images/photo_alarm_E47_hx500.png",
+      "note": "same code, different machine",
+      "id": "q085",
+      "split": "test"
+    },
+    {
+      "type": "image",
+      "question": "What oil capacity does this machine have?",
+      "gold_evidence": [
+        {
+          "doc": "hx_500_service_manual",
+          "contains": [
+            "oil capacity"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "num",
+          "value": 38,
+          "unit": "l",
+          "tol": 0.01
+        }
+      ],
+      "expect_abstain": false,
+      "image": "images/photo_dataplate_hx500.png",
+      "note": "",
+      "id": "q086",
+      "split": "train"
+    },
+    {
+      "type": "image",
+      "question": "Which figure in the manuals matches this picture?",
+      "gold_evidence": [
+        {
+          "doc": "hx_200_service_manual",
+          "contains": [
+            "exploded view"
+          ]
+        }
+      ],
+      "answer_facts": [
+        {
+          "kind": "text",
+          "values": [
+            "exploded"
+          ]
+        }
+      ],
+      "expect_abstain": false,
+      "image": "images/query_diagram_exploded.jpg",
+      "note": "",
+      "id": "q087",
+      "split": "test"
+    },
+    {
+      "type": "unanswerable",
+      "question": "What is the impeller bolt torque for the HX-700?",
+      "gold_evidence": [],
+      "answer_facts": [],
+      "expect_abstain": true,
+      "image": null,
+      "note": "",
+      "id": "q088",
+      "split": "train"
+    },
+    {
+      "type": "unanswerable",
+      "question": "What is the warranty period for the HX-200?",
+      "gold_evidence": [],
+      "answer_facts": [],
+      "expect_abstain": true,
+      "image": null,
+      "note": "",
+      "id": "q089",
+      "split": "test"
+    },
+    {
+      "type": "unanswerable",
+      "question": "How much does an HX-500 compressor cost?",
+      "gold_evidence": [],
+      "answer_facts": [],
+      "expect_abstain": true,
+      "image": null,
+      "note": "",
+      "id": "q090",
+      "split": "train"
+    },
+    {
+      "type": "unanswerable",
+      "question": "Which grease brand is recommended for the HX-900 bearings?",
+      "gold_evidence": [],
+      "answer_facts": [],
+      "expect_abstain": true,
+      "image": null,
+      "note": "",
+      "id": "q091",
+      "split": "test"
+    },
+    {
+      "type": "unanswerable",
+      "question": "Who is the CEO of Helix Dynamics?",
+      "gold_evidence": [],
+      "answer_facts": [],
+      "expect_abstain": true,
+      "image": null,
+      "note": "",
+      "id": "q092",
+      "split": "train"
+    },
+    {
+      "type": "unanswerable",
+      "question": "What is the maximum flow of the HX-300?",
+      "gold_evidence": [],
+      "answer_facts": [],
+      "expect_abstain": true,
+      "image": null,
+      "note": "",
+      "id": "q093",
+      "split": "test"
+    }
+  ]
+}

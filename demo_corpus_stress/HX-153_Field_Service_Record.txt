@@ -1,0 +1,31 @@
+# HX-153 Service Record
+
+Document reference: FR-HX153-0054 | Revision B
+
+OCR review note: some characters in the surrounding boilerplate were unclear; numeric limits below are legible.
+
+## 1. Maximum Working Pressure
+
+Maximum working pressure: 8 bar
+
+## 2. Rated Flow
+
+Rated flow : 145 m3/h
+
+## 3. Rated Motor Power
+
+Rated motor power = 54 kW    [field copy]
+
+FIELD COPY | HX-153 | page 3 | FIELD COPY
+
+## 4. Maximum Fluid Temperature
+
+MAXIMUM FLUID TEMPERATURE: 160 C
+
+## 5. Impeller Bolt Torque
+
+Impeller bolt torque : 22 Nm
+
+## 6. Intake Filter Replacement Interval
+
+Intake filter replacement interval = 700 h

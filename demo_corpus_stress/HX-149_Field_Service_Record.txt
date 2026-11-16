@@ -1,0 +1,31 @@
+# HX-149 Service Record
+
+Document reference: FR-HX149-0050 | Revision B
+
+Service desk copy; line breaks and punctuation follow the scanned field sheet rather than a clean typeset manual.
+
+## 1. Maximum Working Pressure
+
+Maximum working pressure = 33 bar
+
+## 2. Rated Flow
+
+Rated flow: 160 m3/h    [field copy]
+
+## 3. Rated Motor Power
+
+Rated motor power : 54 kW
+
+FIELD COPY | HX-149 | page 3 | FIELD COPY
+
+## 4. Maximum Fluid Temperature
+
+MAXIMUM FLUID TEMPERATURE = 170 C
+
+## 5. Impeller Bolt Torque
+
+Impeller bolt torque: 97 Nm
+
+## 6. Intake Filter Replacement Interval
+
+Intake filter replacement interval : 400 h

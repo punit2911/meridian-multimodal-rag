@@ -1,0 +1,29 @@
+services:
+  meridian:
+    build: .
+    ports: ["8001:8000"]
+    environment:
+      MERIDIAN_VECTOR_STORE: qdrant
+      MERIDIAN_QDRANT_URL: http://qdrant:6333
+    env_file:
+      - path: .env
+        required: false
+    volumes:
+      - meridian-data:/data
+    depends_on:
+      qdrant:
+        condition: service_healthy
+    restart: unless-stopped
+  qdrant:
+    image: qdrant/qdrant:latest
+    volumes:
+      - qdrant-data:/qdrant/storage
+    healthcheck:
+      test: ["CMD-SHELL", "curl -fsS http://localhost:6333/healthz || exit 1"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+    restart: unless-stopped
+volumes:
+  meridian-data:
+  qdrant-data:

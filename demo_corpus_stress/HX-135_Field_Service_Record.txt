@@ -1,0 +1,33 @@
+# HX-135 Service Record
+
+Document reference: FR-HX135-0036 | Revision D
+
+Field copy; page edges are worn and the scan has mild skew. Confirm the model plate before maintenance.
+
+## 1. Maximum Working Pressure
+
+Maximum working pressure: 13 bar    [field copy]
+
+FIELD COPY | HX-135 | page 1 | FIELD COPY
+
+## 2. Rated Flow
+
+RATED FLOW : 105 m3/h
+
+## 3. Rated Motor Power
+
+Rated motor power = 22 kW
+
+## 4. Maximum Fluid Temperature
+
+Maximum fluid temperature: 120 C
+
+## 5. Impeller Bolt Torque
+
+Impeller bolt torque : 117 Nm
+
+FIELD COPY | HX-135 | page 5 | FIELD COPY
+
+## 6. Intake Filter Replacement Interval
+
+INTAKE FILTER REPLACEMENT INTERVAL = 4100 h    [field copy]

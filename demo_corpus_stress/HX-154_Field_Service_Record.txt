@@ -1,0 +1,35 @@
+# HX-154 Service Record
+
+Document reference: FR-HX154-0055 | Revision C
+
+Service desk copy; line breaks and punctuation follow the scanned field sheet rather than a clean typeset manual.
+
+## 1. Maximum Working Pressure
+
+Maximum working pressure : 28 bar
+
+## 2. Rated Flow
+
+Rated flow = 90 m3/h    [field copy]
+
+FIELD COPY | HX-154 | page 2 | FIELD COPY
+
+## 3. Rated Motor Power
+
+RATED MOTOR POWER: 48 kW
+
+## 4. Maximum Fluid Temperature
+
+Maximum fluid temperature : 80 C
+
+## 5. Impeller Bolt Torque
+
+Impeller bolt torque = 57 Nm
+
+## 6. Intake Filter Replacement Interval
+
+Intake filter replacement interval: 2000 h
+
+FIELD COPY | HX-154 | page 6 | FIELD COPY
+
+Transcription addendum: `l` and `1` were difficult to distinguish in the faded header.

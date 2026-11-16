@@ -1,0 +1,33 @@
+# HX-195 Service Record
+
+Document reference: FR-HX195-0096 | Revision D
+
+Field copy; page edges are worn and the scan has mild skew. Confirm the model plate before maintenance.
+
+## 1. Maximum Working Pressure
+
+Maximum working pressure: 28 bar    [field copy]
+
+FIELD COPY | HX-195 | page 1 | FIELD COPY
+
+## 2. Rated Flow
+
+RATED FLOW : 65 m3/h
+
+## 3. Rated Motor Power
+
+Rated motor power = 66 kW
+
+## 4. Maximum Fluid Temperature
+
+Maximum fluid temperature: 75 C
+
+## 5. Impeller Bolt Torque
+
+Impeller bolt torque : 67 Nm
+
+FIELD COPY | HX-195 | page 5 | FIELD COPY
+
+## 6. Intake Filter Replacement Interval
+
+INTAKE FILTER REPLACEMENT INTERVAL = 900 h    [field copy]

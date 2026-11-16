@@ -1,0 +1,33 @@
+# HX-174 Service Record
+
+Document reference: FR-HX174-0075 | Revision C
+
+Service desk copy; line breaks and punctuation follow the scanned field sheet rather than a clean typeset manual.
+
+## 1. Maximum Working Pressure
+
+Maximum working pressure: 8 bar
+
+## 2. Rated Flow
+
+Rated flow : 225 m3/h    [field copy]
+
+FIELD COPY | HX-174 | page 2 | FIELD COPY
+
+## 3. Rated Motor Power
+
+RATED MOTOR POWER = 14 kW
+
+## 4. Maximum Fluid Temperature
+
+Maximum fluid temperature: 85 C
+
+## 5. Impeller Bolt Torque
+
+Impeller bolt torque : 37 Nm
+
+## 6. Intake Filter Replacement Interval
+
+Intake filter replacement interval = 1200 h
+
+FIELD COPY | HX-174 | page 6 | FIELD COPY

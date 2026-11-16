@@ -1,0 +1,35 @@
+# HX-190 Service Record
+
+Document reference: FR-HX190-0091 | Revision C
+
+Field copy; page edges are worn and the scan has mild skew. Confirm the model plate before maintenance.
+
+## 1. Maximum Working Pressure
+
+Maximum working pressure : 13 bar    [field copy]
+
+## 2. Rated Flow
+
+Rated flow = 215 m3/h
+
+FIELD COPY | HX-190 | page 2 | FIELD COPY
+
+## 3. Rated Motor Power
+
+RATED MOTOR POWER: 30 kW
+
+## 4. Maximum Fluid Temperature
+
+Maximum fluid temperature : 60 C
+
+## 5. Impeller Bolt Torque
+
+Impeller bolt torque = 77 Nm
+
+## 6. Intake Filter Replacement Interval
+
+Intake filter replacement interval: 2800 h    [field copy]
+
+FIELD COPY | HX-190 | page 6 | FIELD COPY
+
+Transcription addendum: `l` and `1` were difficult to distinguish in the faded header.

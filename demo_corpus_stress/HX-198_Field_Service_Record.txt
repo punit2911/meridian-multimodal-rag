@@ -1,0 +1,33 @@
+# HX-198 Service Record
+
+Document reference: FR-HX198-0099 | Revision C
+
+OCR review note: some characters in the surrounding boilerplate were unclear; numeric limits below are legible.
+
+## 1. Maximum Working Pressure
+
+Maximum working pressure: 18 bar
+
+## 2. Rated Flow
+
+Rated flow : 235 m3/h
+
+FIELD COPY | HX-198 | page 2 | FIELD COPY
+
+## 3. Rated Motor Power
+
+RATED MOTOR POWER = 82 kW    [field copy]
+
+## 4. Maximum Fluid Temperature
+
+Maximum fluid temperature: 105 C
+
+## 5. Impeller Bolt Torque
+
+Impeller bolt torque : 107 Nm
+
+## 6. Intake Filter Replacement Interval
+
+Intake filter replacement interval = 3400 h
+
+FIELD COPY | HX-198 | page 6 | FIELD COPY

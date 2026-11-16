@@ -1,0 +1,33 @@
+# HX-158 Service Record
+
+Document reference: FR-HX158-0059 | Revision C
+
+OCR review note: some characters in the surrounding boilerplate were unclear; numeric limits below are legible.
+
+## 1. Maximum Working Pressure
+
+Maximum working pressure = 23 bar
+
+## 2. Rated Flow
+
+Rated flow: 160 m3/h
+
+FIELD COPY | HX-158 | page 2 | FIELD COPY
+
+## 3. Rated Motor Power
+
+RATED MOTOR POWER : 38 kW    [field copy]
+
+## 4. Maximum Fluid Temperature
+
+Maximum fluid temperature = 140 C
+
+## 5. Impeller Bolt Torque
+
+Impeller bolt torque: 42 Nm
+
+## 6. Intake Filter Replacement Interval
+
+Intake filter replacement interval : 2800 h
+
+FIELD COPY | HX-158 | page 6 | FIELD COPY

@@ -1,0 +1,33 @@
+# HX-126 Service Record
+
+Document reference: FR-HX126-0027 | Revision C
+
+Technician transcription: table rules were faint, and a repeated footer appears in the source copy.
+
+## 1. Maximum Working Pressure
+
+Maximum working pressure: 33 bar
+
+## 2. Rated Flow
+
+Rated flow : 175 m3/h
+
+FIELD COPY | HX-126 | page 2 | FIELD COPY
+
+## 3. Rated Motor Power
+
+RATED MOTOR POWER = 32 kW
+
+## 4. Maximum Fluid Temperature
+
+Maximum fluid temperature: 160 C
+
+## 5. Impeller Bolt Torque
+
+Impeller bolt torque : 67 Nm    [field copy]
+
+## 6. Intake Filter Replacement Interval
+
+Intake filter replacement interval = 1200 h
+
+FIELD COPY | HX-126 | page 6 | FIELD COPY

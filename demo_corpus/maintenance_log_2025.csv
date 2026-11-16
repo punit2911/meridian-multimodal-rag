@@ -1,0 +1,184 @@
+date,equipment_id,model,technician,work_order,error_code,description,parts_replaced,downtime_hours,cost_usd
+2025-01-03,HX-900-001,HX-900,M. Johansson,WO-2025-1178,,Strainer clean and gasket replacement,Strainer gasket,0.5,101.87
+2025-01-06,HX-900-001,HX-900,D. Reyes,WO-2025-1177,E-52,Vibration above 4.5 mm/s — impeller balance check,Impeller (reconditioned),7.9,1879.65
+2025-01-07,HX-500-001,HX-500,T. Williams,WO-2025-1121,E-31,Bearing noise — increased vibration on V1 point,Drive-end bearing 6309-ZZ,5.5,1097.84
+2025-01-10,HX-500-001,HX-500,A. Nguyen,WO-2025-1136,E-52,Vibration above 4.5 mm/s — impeller balance check,Impeller (reconditioned),11.4,1291.98
+2025-01-12,HX-900-001,HX-900,M. Johansson,WO-2025-1162,,"Scheduled 2000h service — seal replacement, bearing replacement","MS-3 Seal, Bearings 6309/6307, Coupling Element",6.6,1843.83
+2025-01-16,HX-300-001,HX-300,A. Nguyen,WO-2025-1093,E-12,"High motor frame temperature, reduced load",None — adjusted cooling airflow,0.6,125.48
+2025-01-17,HX-200-002,HX-200,M. Johansson,WO-2025-1058,E-31,Bearing noise — increased vibration on V1 point,Drive-end bearing 6309-ZZ,4.8,1337.91
+2025-01-25,HX-500-001,HX-500,T. Williams,WO-2025-1115,E-52,High vibration alarm — pump-motor misalignment found,Coupling element (spider),4.6,555.95
+2025-01-27,HX-500-001,HX-500,L. Kowalski,WO-2025-1142,E-12,Motor overtemperature trip — motor protection relay activated,"Motor fan cowl, thermal fuse",0.9,226.51
+2025-01-30,HX-900-001,HX-900,J. Whitmore,WO-2025-1143,E-31,Bearing noise — increased vibration on V1 point,Drive-end bearing 6309-ZZ,6.1,1370.2
+2025-02-01,HX-200-002,HX-200,J. Whitmore,WO-2025-1040,,Thermographic inspection — motor and bearings,None,1.2,268.64
+2025-02-01,HX-500-001,HX-500,M. Johansson,WO-2025-1122,E-44,Low discharge pressure — impeller wear identified,"Impeller, wear ring",11.5,4015.45
+2025-02-07,HX-200-001,HX-200,M. Johansson,WO-2025-1001,,"Scheduled 2000h service — seal replacement, bearing replacement","MS-3 Seal, Bearings 6309/6307, Coupling Element",6.4,1854.03
+2025-02-08,HX-500-001,HX-500,S. Patel,WO-2025-1123,,Thermographic inspection — motor and bearings,None,1.3,208.36
+2025-02-09,HX-300-001,HX-300,J. Whitmore,WO-2025-1092,E-63,Suction pressure dip — partial blockage on inlet pipe,None — cleaned pipework,0.8,92.23
+2025-02-10,HX-900-001,HX-900,A. Nguyen,WO-2025-1146,,"Scheduled 500h service — bearing lubrication, seal inspection",Grease LB-3 (500g),1.6,296.47
+2025-02-13,HX-200-001,HX-200,S. Patel,WO-2025-1004,E-47,Mechanical seal failure — fluid leaking at seal face,MS-3 Mechanical Seal,5.8,722.35
+2025-02-14,HX-200-002,HX-200,A. Nguyen,WO-2025-1038,,Oil change — bearing housing ISO VG46,ISO VG46 oil (2L),0.8,64.77
+2025-02-15,HX-200-001,HX-200,S. Patel,WO-2025-1031,E-47,Mechanical seal failure — fluid leaking at seal face,MS-3 Mechanical Seal,3.9,1109.63
+2025-02-16,HX-500-001,HX-500,T. Williams,WO-2025-1132,E-44,Low discharge pressure — impeller wear identified,"Impeller, wear ring",8.1,2574.8
+2025-02-20,HX-200-001,HX-200,D. Reyes,WO-2025-1009,E-52,High vibration alarm — pump-motor misalignment found,Coupling element (spider),4.1,601.27
+2025-02-25,HX-200-001,HX-200,D. Reyes,WO-2025-1022,E-31,Bearing noise — increased vibration on V1 point,Drive-end bearing 6309-ZZ,4.2,1358.72
+2025-02-25,HX-200-002,HX-200,L. Kowalski,WO-2025-1068,E-52,High vibration alarm — pump-motor misalignment found,Coupling element (spider),2.0,632.95
+2025-02-26,HX-300-001,HX-300,K. Okafor,WO-2025-1088,,Thermographic inspection — motor and bearings,None,1.4,216.07
+2025-02-27,HX-900-001,HX-900,S. Patel,WO-2025-1171,E-52,High vibration alarm — pump-motor misalignment found,Coupling element (spider),3.1,351.74
+2025-02-28,HX-500-001,HX-500,J. Whitmore,WO-2025-1131,,"Annual performance test — flow, head, power measurement",None,2.5,377.05
+2025-03-01,HX-500-001,HX-500,L. Kowalski,WO-2025-1108,E-47,Mechanical seal failure — fluid leaking at seal face,MS-3 Mechanical Seal,3.0,877.43
+2025-03-02,HX-200-001,HX-200,S. Patel,WO-2025-1036,E-31,Bearing noise — increased vibration on V1 point,Drive-end bearing 6309-ZZ,5.5,1467.45
+2025-03-03,HX-500-001,HX-500,K. Okafor,WO-2025-1111,E-31,"Bearing failure — grease depleted, overheating","Drive-end bearing 6309-ZZ, grease LB-3",6.2,1694.67
+2025-03-06,HX-500-001,HX-500,D. Reyes,WO-2025-1137,E-47,Mechanical seal failure — fluid leaking at seal face,MS-3 Mechanical Seal,4.1,887.47
+2025-03-13,HX-500-001,HX-500,M. Johansson,WO-2025-1125,E-12,"High motor frame temperature, reduced load",None — adjusted cooling airflow,0.5,134.81
+2025-03-18,HX-200-002,HX-200,K. Okafor,WO-2025-1048,,"Scheduled 2000h service — seal replacement, bearing replacement","MS-3 Seal, Bearings 6309/6307, Coupling Element",4.3,3301.28
+2025-03-18,HX-900-001,HX-900,T. Williams,WO-2025-1161,,"Scheduled 500h service — bearing lubrication, seal inspection",Grease LB-3 (500g),1.3,346.81
+2025-03-21,HX-300-001,HX-300,J. Whitmore,WO-2025-1102,E-44,Discharge pressure below setpoint — control valve fault,Control valve actuator,6.2,1736.9
+2025-03-23,HX-200-001,HX-200,L. Kowalski,WO-2025-1003,E-47,Seal leak detected during daily inspection,"MS-3 Mechanical Seal, O-Ring Kit",3.7,960.11
+2025-03-24,HX-200-001,HX-200,S. Patel,WO-2025-1000,,"Scheduled 500h service — bearing lubrication, seal inspection",Grease LB-3 (500g),1.7,198.98
+2025-03-24,HX-200-002,HX-200,J. Whitmore,WO-2025-1071,,Strainer clean and gasket replacement,Strainer gasket,0.9,88.35
+2025-03-26,HX-200-002,HX-200,D. Reyes,WO-2025-1051,,"Annual performance test — flow, head, power measurement",None,2.9,271.02
+2025-03-26,HX-900-001,HX-900,M. Johansson,WO-2025-1159,,"Scheduled 500h service — bearing lubrication, seal inspection",Grease LB-3 (500g),1.1,216.7
+2025-04-03,HX-200-001,HX-200,K. Okafor,WO-2025-1026,,"Scheduled 500h service — bearing lubrication, seal inspection",Grease LB-3 (500g),1.1,276.22
+2025-04-04,HX-500-001,HX-500,L. Kowalski,WO-2025-1105,E-63,Low suction pressure — strainer blocked,"Strainer basket, gasket",1.5,101.07
+2025-04-05,HX-200-001,HX-200,J. Whitmore,WO-2025-1014,,Strainer clean and gasket replacement,Strainer gasket,0.9,77.96
+2025-04-05,HX-900-001,HX-900,J. Whitmore,WO-2025-1174,,Thermographic inspection — motor and bearings,None,1.2,212.47
+2025-04-06,HX-200-001,HX-200,L. Kowalski,WO-2025-1032,E-44,Discharge pressure below setpoint — control valve fault,Control valve actuator,7.3,2062.8
+2025-04-07,HX-200-001,HX-200,J. Whitmore,WO-2025-1030,E-52,Vibration above 4.5 mm/s — impeller balance check,Impeller (reconditioned),10.8,1418.54
+2025-04-08,HX-200-002,HX-200,K. Okafor,WO-2025-1054,,Pressure gauge calibration — suction and discharge,Pressure gauge (calibrated),1.0,221.29
+2025-04-11,HX-900-001,HX-900,D. Reyes,WO-2025-1160,E-63,Low suction pressure — strainer blocked,"Strainer basket, gasket",0.9,118.07
+2025-04-13,HX-200-001,HX-200,S. Patel,WO-2025-1037,,"Scheduled 2000h service — seal replacement, bearing replacement","MS-3 Seal, Bearings 6309/6307, Coupling Element",6.4,2947.86
+2025-04-15,HX-300-001,HX-300,T. Williams,WO-2025-1084,,Oil change — bearing housing ISO VG46,ISO VG46 oil (2L),0.6,140.34
+2025-04-21,HX-200-001,HX-200,J. Whitmore,WO-2025-1012,E-44,Low discharge pressure — impeller wear identified,"Impeller, wear ring",12.5,4066.58
+2025-04-21,HX-500-001,HX-500,M. Johansson,WO-2025-1107,E-31,Bearing noise — increased vibration on V1 point,Drive-end bearing 6309-ZZ,5.8,1366.08
+2025-04-22,HX-200-002,HX-200,T. Williams,WO-2025-1065,E-52,High vibration alarm — pump-motor misalignment found,Coupling element (spider),3.0,664.66
+2025-04-24,HX-200-001,HX-200,T. Williams,WO-2025-1013,E-44,Low discharge pressure — impeller wear identified,"Impeller, wear ring",11.7,2888.69
+2025-04-25,HX-900-001,HX-900,S. Patel,WO-2025-1181,E-12,Motor overtemperature trip — motor protection relay activated,"Motor fan cowl, thermal fuse",1.1,269.11
+2025-04-27,HX-300-001,HX-300,K. Okafor,WO-2025-1083,,"Scheduled 500h service — bearing lubrication, seal inspection",Grease LB-3 (500g),1.8,339.92
+2025-04-28,HX-900-001,HX-900,L. Kowalski,WO-2025-1149,,Pressure gauge calibration — suction and discharge,Pressure gauge (calibrated),1.5,112.52
+2025-04-29,HX-900-001,HX-900,D. Reyes,WO-2025-1154,E-47,Mechanical seal failure — fluid leaking at seal face,MS-3 Mechanical Seal,6.0,563.61
+2025-05-01,HX-300-001,HX-300,D. Reyes,WO-2025-1101,,Oil change — bearing housing ISO VG46,ISO VG46 oil (2L),0.6,103.31
+2025-05-01,HX-500-001,HX-500,S. Patel,WO-2025-1114,E-47,Mechanical seal failure — fluid leaking at seal face,MS-3 Mechanical Seal,3.7,712.07
+2025-05-02,HX-200-002,HX-200,K. Okafor,WO-2025-1046,,"Scheduled 500h service — bearing lubrication, seal inspection",Grease LB-3 (500g),1.1,234.72
+2025-05-02,HX-900-001,HX-900,A. Nguyen,WO-2025-1156,,"Scheduled 2000h service — seal replacement, bearing replacement","MS-3 Seal, Bearings 6309/6307, Coupling Element",7.3,2846.61
+2025-05-03,HX-200-001,HX-200,M. Johansson,WO-2025-1007,,"Scheduled 2000h service — seal replacement, bearing replacement","MS-3 Seal, Bearings 6309/6307, Coupling Element",4.2,2187.43
+2025-05-05,HX-200-002,HX-200,A. Nguyen,WO-2025-1041,,"Scheduled 2000h service — seal replacement, bearing replacement","MS-3 Seal, Bearings 6309/6307, Coupling Element",4.3,2162.36
+2025-05-06,HX-200-002,HX-200,T. Williams,WO-2025-1056,,Alignment check and correction — laser alignment,None — alignment corrected,2.4,203.07
+2025-05-06,HX-500-001,HX-500,L. Kowalski,WO-2025-1116,,"Annual performance test — flow, head, power measurement",None,2.5,395.45
+2025-05-08,HX-200-001,HX-200,K. Okafor,WO-2025-1021,,Pressure gauge calibration — suction and discharge,Pressure gauge (calibrated),0.8,238.66
+2025-05-08,HX-300-001,HX-300,L. Kowalski,WO-2025-1096,,Pressure gauge calibration — suction and discharge,Pressure gauge (calibrated),1.1,92.76
+2025-05-10,HX-200-002,HX-200,M. Johansson,WO-2025-1062,,Thermographic inspection — motor and bearings,None,1.2,253.4
+2025-05-10,HX-300-001,HX-300,T. Williams,WO-2025-1098,E-52,Vibration above 4.5 mm/s — impeller balance check,Impeller (reconditioned),8.0,2605.71
+2025-05-12,HX-200-002,HX-200,L. Kowalski,WO-2025-1055,,Strainer clean and gasket replacement,Strainer gasket,0.7,110.5
+2025-05-13,HX-200-002,HX-200,D. Reyes,WO-2025-1039,,Oil change — bearing housing ISO VG46,ISO VG46 oil (2L),0.8,97.7
+2025-05-15,HX-500-001,HX-500,S. Patel,WO-2025-1112,E-47,Seal leak detected during daily inspection,"MS-3 Mechanical Seal, O-Ring Kit",3.4,850.14
+2025-05-18,HX-900-001,HX-900,S. Patel,WO-2025-1150,,Alignment check and correction — laser alignment,None — alignment corrected,1.6,258.91
+2025-05-19,HX-900-001,HX-900,M. Johansson,WO-2025-1175,E-47,Mechanical seal failure — fluid leaking at seal face,MS-3 Mechanical Seal,5.4,744.64
+2025-05-20,HX-200-002,HX-200,M. Johansson,WO-2025-1044,E-44,Low discharge pressure — impeller wear identified,"Impeller, wear ring",13.9,2604.16
+2025-05-22,HX-500-001,HX-500,L. Kowalski,WO-2025-1118,,"Annual performance test — flow, head, power measurement",None,2.3,408.1
+2025-05-24,HX-900-001,HX-900,A. Nguyen,WO-2025-1148,,Thermographic inspection — motor and bearings,None,1.5,271.07
+2025-05-25,HX-200-001,HX-200,A. Nguyen,WO-2025-1017,,"Scheduled 2000h service — seal replacement, bearing replacement","MS-3 Seal, Bearings 6309/6307, Coupling Element",6.7,2712.85
+2025-05-25,HX-300-001,HX-300,L. Kowalski,WO-2025-1076,,Strainer clean and gasket replacement,Strainer gasket,0.7,115.99
+2025-06-01,HX-200-001,HX-200,M. Johansson,WO-2025-1025,E-31,"Bearing failure — grease depleted, overheating","Drive-end bearing 6309-ZZ, grease LB-3",3.6,908.4
+2025-06-01,HX-300-001,HX-300,L. Kowalski,WO-2025-1089,E-12,Motor overtemperature trip — motor protection relay activated,"Motor fan cowl, thermal fuse",0.9,302.15
+2025-06-04,HX-500-001,HX-500,L. Kowalski,WO-2025-1119,,"Scheduled 500h service — bearing lubrication, seal inspection",Grease LB-3 (500g),1.5,212.9
+2025-06-06,HX-200-001,HX-200,A. Nguyen,WO-2025-1008,,Strainer clean and gasket replacement,Strainer gasket,0.6,94.5
+2025-06-06,HX-300-001,HX-300,K. Okafor,WO-2025-1103,E-47,Mechanical seal failure — fluid leaking at seal face,MS-3 Mechanical Seal,3.1,824.67
+2025-06-08,HX-300-001,HX-300,S. Patel,WO-2025-1082,E-47,Mechanical seal failure — fluid leaking at seal face,MS-3 Mechanical Seal,2.1,868.38
+2025-06-08,HX-900-001,HX-900,M. Johansson,WO-2025-1144,,Thermographic inspection — motor and bearings,None,1.4,156.82
+2025-06-13,HX-200-001,HX-200,T. Williams,WO-2025-1011,,"Scheduled 500h service — bearing lubrication, seal inspection",Grease LB-3 (500g),1.2,156.42
+2025-06-13,HX-200-002,HX-200,T. Williams,WO-2025-1060,,Thermographic inspection — motor and bearings,None,1.3,226.7
+2025-06-17,HX-900-001,HX-900,T. Williams,WO-2025-1147,,"Annual performance test — flow, head, power measurement",None,2.2,435.95
+2025-06-22,HX-200-002,HX-200,S. Patel,WO-2025-1059,E-47,Mechanical seal failure — fluid leaking at seal face,MS-3 Mechanical Seal,4.7,717.74
+2025-06-24,HX-500-001,HX-500,J. Whitmore,WO-2025-1129,,Oil change — bearing housing ISO VG46,ISO VG46 oil (2L),0.8,88.03
+2025-06-25,HX-200-002,HX-200,L. Kowalski,WO-2025-1050,,Oil change — bearing housing ISO VG46,ISO VG46 oil (2L),0.8,140.03
+2025-06-25,HX-900-001,HX-900,S. Patel,WO-2025-1179,E-12,"High motor frame temperature, reduced load",None — adjusted cooling airflow,0.3,117.4
+2025-06-29,HX-200-002,HX-200,K. Okafor,WO-2025-1049,,"Annual performance test — flow, head, power measurement",None,2.4,212.55
+2025-07-01,HX-200-001,HX-200,L. Kowalski,WO-2025-1033,E-47,Seal leak detected during daily inspection,"MS-3 Mechanical Seal, O-Ring Kit",2.5,554.01
+2025-07-02,HX-500-001,HX-500,M. Johansson,WO-2025-1120,,"Scheduled 500h service — bearing lubrication, seal inspection",Grease LB-3 (500g),1.7,258.52
+2025-07-04,HX-900-001,HX-900,D. Reyes,WO-2025-1153,,Pressure gauge calibration — suction and discharge,Pressure gauge (calibrated),1.4,138.35
+2025-07-07,HX-200-001,HX-200,S. Patel,WO-2025-1028,,Pressure gauge calibration — suction and discharge,Pressure gauge (calibrated),0.9,165.68
+2025-07-09,HX-300-001,HX-300,L. Kowalski,WO-2025-1081,E-47,Seal leak detected during daily inspection,"MS-3 Mechanical Seal, O-Ring Kit",2.6,715.75
+2025-07-11,HX-500-001,HX-500,A. Nguyen,WO-2025-1117,,Pressure gauge calibration — suction and discharge,Pressure gauge (calibrated),1.5,165.2
+2025-07-14,HX-300-001,HX-300,A. Nguyen,WO-2025-1074,E-12,Motor overtemperature trip — motor protection relay activated,"Motor fan cowl, thermal fuse",0.7,197.02
+2025-07-14,HX-900-001,HX-900,S. Patel,WO-2025-1166,E-44,Discharge pressure below setpoint — control valve fault,Control valve actuator,4.2,1474.78
+2025-07-15,HX-500-001,HX-500,A. Nguyen,WO-2025-1128,E-12,"High motor frame temperature, reduced load",None — adjusted cooling airflow,0.4,171.54
+2025-07-16,HX-200-002,HX-200,L. Kowalski,WO-2025-1067,E-44,Low discharge pressure — impeller wear identified,"Impeller, wear ring",12.6,4067.7
+2025-07-20,HX-200-002,HX-200,S. Patel,WO-2025-1057,E-31,Bearing noise — increased vibration on V1 point,Drive-end bearing 6309-ZZ,5.0,1407.79
+2025-07-20,HX-900-001,HX-900,T. Williams,WO-2025-1168,E-31,Bearing noise — increased vibration on V1 point,Drive-end bearing 6309-ZZ,5.8,1340.94
+2025-07-26,HX-200-002,HX-200,M. Johansson,WO-2025-1052,,"Scheduled 500h service — bearing lubrication, seal inspection",Grease LB-3 (500g),1.2,334.9
+2025-07-28,HX-500-001,HX-500,J. Whitmore,WO-2025-1141,,Pressure gauge calibration — suction and discharge,Pressure gauge (calibrated),1.4,121.87
+2025-07-28,HX-900-001,HX-900,K. Okafor,WO-2025-1173,,Strainer clean and gasket replacement,Strainer gasket,0.7,96.57
+2025-08-03,HX-300-001,HX-300,K. Okafor,WO-2025-1104,E-63,Suction pressure dip — partial blockage on inlet pipe,None — cleaned pipework,0.6,66.53
+2025-08-03,HX-900-001,HX-900,M. Johansson,WO-2025-1158,E-47,Seal leak detected during daily inspection,"MS-3 Mechanical Seal, O-Ring Kit",3.9,1070.43
+2025-08-06,HX-300-001,HX-300,K. Okafor,WO-2025-1080,,"Scheduled 500h service — bearing lubrication, seal inspection",Grease LB-3 (500g),1.1,235.72
+2025-08-07,HX-200-001,HX-200,D. Reyes,WO-2025-1027,,"Scheduled 2000h service — seal replacement, bearing replacement","MS-3 Seal, Bearings 6309/6307, Coupling Element",6.1,2273.41
+2025-08-08,HX-200-002,HX-200,M. Johansson,WO-2025-1053,E-63,Low suction pressure — strainer blocked,"Strainer basket, gasket",0.8,203.38
+2025-08-10,HX-500-001,HX-500,L. Kowalski,WO-2025-1106,,Oil change — bearing housing ISO VG46,ISO VG46 oil (2L),0.9,105.65
+2025-08-18,HX-200-001,HX-200,S. Patel,WO-2025-1005,E-47,Seal leak detected during daily inspection,"MS-3 Mechanical Seal, O-Ring Kit",2.2,545.2
+2025-08-18,HX-200-002,HX-200,L. Kowalski,WO-2025-1047,E-47,Mechanical seal failure — fluid leaking at seal face,MS-3 Mechanical Seal,5.9,596.34
+2025-08-18,HX-300-001,HX-300,M. Johansson,WO-2025-1095,,Oil change — bearing housing ISO VG46,ISO VG46 oil (2L),0.5,146.41
+2025-08-20,HX-200-002,HX-200,S. Patel,WO-2025-1066,E-47,Seal leak detected during daily inspection,"MS-3 Mechanical Seal, O-Ring Kit",1.6,662.01
+2025-08-22,HX-200-002,HX-200,M. Johansson,WO-2025-1063,E-31,Bearing noise — increased vibration on V1 point,Drive-end bearing 6309-ZZ,6.0,1118.49
+2025-08-23,HX-300-001,HX-300,D. Reyes,WO-2025-1090,,"Scheduled 2000h service — seal replacement, bearing replacement","MS-3 Seal, Bearings 6309/6307, Coupling Element",5.7,2415.72
+2025-08-28,HX-500-001,HX-500,D. Reyes,WO-2025-1127,E-47,Seal leak detected during daily inspection,"MS-3 Mechanical Seal, O-Ring Kit",3.0,1099.36
+2025-08-29,HX-500-001,HX-500,T. Williams,WO-2025-1139,E-47,Seal leak detected during daily inspection,"MS-3 Mechanical Seal, O-Ring Kit",2.1,525.45
+2025-09-01,HX-300-001,HX-300,L. Kowalski,WO-2025-1079,,Pressure gauge calibration — suction and discharge,Pressure gauge (calibrated),1.4,246.92
+2025-09-02,HX-200-001,HX-200,A. Nguyen,WO-2025-1035,E-47,Seal leak detected during daily inspection,"MS-3 Mechanical Seal, O-Ring Kit",3.9,855.92
+2025-09-02,HX-900-001,HX-900,A. Nguyen,WO-2025-1172,E-47,Mechanical seal failure — fluid leaking at seal face,MS-3 Mechanical Seal,5.0,1064.47
+2025-09-03,HX-300-001,HX-300,D. Reyes,WO-2025-1073,E-52,Vibration above 4.5 mm/s — impeller balance check,Impeller (reconditioned),7.4,1871.7
+2025-09-08,HX-200-002,HX-200,S. Patel,WO-2025-1069,E-63,Low suction pressure — strainer blocked,"Strainer basket, gasket",1.3,150.39
+2025-09-09,HX-500-001,HX-500,K. Okafor,WO-2025-1126,,"Annual performance test — flow, head, power measurement",None,2.9,282.87
+2025-09-11,HX-900-001,HX-900,M. Johansson,WO-2025-1152,,Pressure gauge calibration — suction and discharge,Pressure gauge (calibrated),0.8,231.48
+2025-09-14,HX-200-001,HX-200,M. Johansson,WO-2025-1002,E-47,Mechanical seal failure — fluid leaking at seal face,MS-3 Mechanical Seal,2.8,947.92
+2025-09-14,HX-900-001,HX-900,D. Reyes,WO-2025-1155,E-47,Seal leak detected during daily inspection,"MS-3 Mechanical Seal, O-Ring Kit",3.9,923.96
+2025-09-16,HX-200-002,HX-200,T. Williams,WO-2025-1045,,Oil change — bearing housing ISO VG46,ISO VG46 oil (2L),0.8,162.35
+2025-09-16,HX-500-001,HX-500,J. Whitmore,WO-2025-1113,E-47,Seal leak detected during daily inspection,"MS-3 Mechanical Seal, O-Ring Kit",2.5,677.9
+2025-09-17,HX-300-001,HX-300,A. Nguyen,WO-2025-1097,,Thermographic inspection — motor and bearings,None,1.3,179.04
+2025-09-20,HX-200-001,HX-200,M. Johansson,WO-2025-1019,E-47,Mechanical seal failure — fluid leaking at seal face,MS-3 Mechanical Seal,4.5,1086.0
+2025-09-20,HX-300-001,HX-300,T. Williams,WO-2025-1100,E-12,"High motor frame temperature, reduced load",None — adjusted cooling airflow,0.6,197.19
+2025-09-22,HX-900-001,HX-900,T. Williams,WO-2025-1182,E-47,Mechanical seal failure — fluid leaking at seal face,MS-3 Mechanical Seal,4.7,907.06
+2025-09-23,HX-200-002,HX-200,T. Williams,WO-2025-1042,,Oil change — bearing housing ISO VG46,ISO VG46 oil (2L),0.7,78.93
+2025-09-23,HX-500-001,HX-500,T. Williams,WO-2025-1124,E-47,Mechanical seal failure — fluid leaking at seal face,MS-3 Mechanical Seal,5.3,838.83
+2025-09-25,HX-300-001,HX-300,J. Whitmore,WO-2025-1091,E-52,Vibration above 4.5 mm/s — impeller balance check,Impeller (reconditioned),11.8,1740.16
+2025-09-28,HX-200-001,HX-200,K. Okafor,WO-2025-1016,E-31,Bearing noise — increased vibration on V1 point,Drive-end bearing 6309-ZZ,5.4,926.27
+2025-09-29,HX-900-001,HX-900,A. Nguyen,WO-2025-1157,E-12,"High motor frame temperature, reduced load",None — adjusted cooling airflow,0.4,123.52
+2025-09-30,HX-200-001,HX-200,K. Okafor,WO-2025-1020,E-63,Low suction pressure — strainer blocked,"Strainer basket, gasket",1.2,191.22
+2025-10-04,HX-900-001,HX-900,J. Whitmore,WO-2025-1164,,Pressure gauge calibration — suction and discharge,Pressure gauge (calibrated),1.1,147.93
+2025-10-05,HX-500-001,HX-500,M. Johansson,WO-2025-1138,E-63,Suction pressure dip — partial blockage on inlet pipe,None — cleaned pipework,0.8,84.08
+2025-10-05,HX-900-001,HX-900,S. Patel,WO-2025-1167,E-44,Low discharge pressure — impeller wear identified,"Impeller, wear ring",8.6,2410.06
+2025-10-10,HX-500-001,HX-500,L. Kowalski,WO-2025-1140,,"Annual performance test — flow, head, power measurement",None,2.1,483.57
+2025-10-11,HX-200-002,HX-200,J. Whitmore,WO-2025-1070,E-63,Low suction pressure — strainer blocked,"Strainer basket, gasket",1.3,218.43
+2025-10-14,HX-200-001,HX-200,M. Johansson,WO-2025-1023,E-12,"High motor frame temperature, reduced load",None — adjusted cooling airflow,0.5,111.81
+2025-10-22,HX-300-001,HX-300,L. Kowalski,WO-2025-1086,,"Scheduled 2000h service — seal replacement, bearing replacement","MS-3 Seal, Bearings 6309/6307, Coupling Element",6.3,3379.11
+2025-10-22,HX-500-001,HX-500,M. Johansson,WO-2025-1110,E-47,Seal leak detected during daily inspection,"MS-3 Mechanical Seal, O-Ring Kit",2.2,978.92
+2025-10-23,HX-300-001,HX-300,T. Williams,WO-2025-1094,E-47,Seal leak detected during daily inspection,"MS-3 Mechanical Seal, O-Ring Kit",3.5,717.4
+2025-10-29,HX-300-001,HX-300,M. Johansson,WO-2025-1077,,Strainer clean and gasket replacement,Strainer gasket,0.8,101.42
+2025-10-31,HX-300-001,HX-300,K. Okafor,WO-2025-1075,E-12,Motor overtemperature trip — motor protection relay activated,"Motor fan cowl, thermal fuse",0.7,271.25
+2025-11-02,HX-900-001,HX-900,T. Williams,WO-2025-1145,,"Annual performance test — flow, head, power measurement",None,2.6,471.02
+2025-11-03,HX-200-002,HX-200,T. Williams,WO-2025-1064,E-63,Low suction pressure — strainer blocked,"Strainer basket, gasket",1.5,185.67
+2025-11-03,HX-900-001,HX-900,T. Williams,WO-2025-1180,,"Annual performance test — flow, head, power measurement",None,2.2,385.35
+2025-11-04,HX-200-002,HX-200,D. Reyes,WO-2025-1043,,"Scheduled 500h service — bearing lubrication, seal inspection",Grease LB-3 (500g),1.7,260.92
+2025-11-05,HX-500-001,HX-500,J. Whitmore,WO-2025-1130,,Strainer clean and gasket replacement,Strainer gasket,0.7,96.46
+2025-11-08,HX-200-002,HX-200,T. Williams,WO-2025-1072,E-63,Low suction pressure — strainer blocked,"Strainer basket, gasket",1.4,126.05
+2025-11-08,HX-300-001,HX-300,S. Patel,WO-2025-1087,E-52,Vibration above 4.5 mm/s — impeller balance check,Impeller (reconditioned),6.5,2581.23
+2025-11-12,HX-900-001,HX-900,S. Patel,WO-2025-1151,E-52,High vibration alarm — pump-motor misalignment found,Coupling element (spider),4.0,554.74
+2025-11-14,HX-200-001,HX-200,S. Patel,WO-2025-1015,E-47,Mechanical seal failure — fluid leaking at seal face,MS-3 Mechanical Seal,2.4,931.76
+2025-11-17,HX-900-001,HX-900,T. Williams,WO-2025-1165,E-44,Discharge pressure below setpoint — control valve fault,Control valve actuator,4.2,1839.87
+2025-11-20,HX-200-001,HX-200,A. Nguyen,WO-2025-1006,,Strainer clean and gasket replacement,Strainer gasket,0.5,70.52
+2025-11-21,HX-200-001,HX-200,A. Nguyen,WO-2025-1024,,Oil change — bearing housing ISO VG46,ISO VG46 oil (2L),0.9,107.88
+2025-11-21,HX-900-001,HX-900,M. Johansson,WO-2025-1169,E-31,Bearing noise — increased vibration on V1 point,Drive-end bearing 6309-ZZ,4.3,1331.6
+2025-11-22,HX-300-001,HX-300,L. Kowalski,WO-2025-1078,E-47,Seal leak detected during daily inspection,"MS-3 Mechanical Seal, O-Ring Kit",2.7,745.54
+2025-11-22,HX-500-001,HX-500,T. Williams,WO-2025-1134,,Pressure gauge calibration — suction and discharge,Pressure gauge (calibrated),1.4,95.74
+2025-11-23,HX-200-001,HX-200,M. Johansson,WO-2025-1010,E-47,Seal leak detected during daily inspection,"MS-3 Mechanical Seal, O-Ring Kit",2.7,676.57
+2025-11-23,HX-500-001,HX-500,S. Patel,WO-2025-1135,,"Scheduled 2000h service — seal replacement, bearing replacement","MS-3 Seal, Bearings 6309/6307, Coupling Element",5.7,1967.35
+2025-11-24,HX-200-002,HX-200,D. Reyes,WO-2025-1061,,Oil change — bearing housing ISO VG46,ISO VG46 oil (2L),0.7,172.84
+2025-11-28,HX-500-001,HX-500,L. Kowalski,WO-2025-1133,E-52,Vibration above 4.5 mm/s — impeller balance check,Impeller (reconditioned),9.9,2903.53
+2025-12-02,HX-200-001,HX-200,S. Patel,WO-2025-1029,E-12,Motor overtemperature trip — motor protection relay activated,"Motor fan cowl, thermal fuse",0.9,288.13
+2025-12-04,HX-300-001,HX-300,D. Reyes,WO-2025-1085,,"Annual performance test — flow, head, power measurement",None,2.6,489.12
+2025-12-04,HX-900-001,HX-900,A. Nguyen,WO-2025-1170,E-44,Low discharge pressure — impeller wear identified,"Impeller, wear ring",11.3,4351.29
+2025-12-06,HX-300-001,HX-300,M. Johansson,WO-2025-1099,E-52,Vibration above 4.5 mm/s — impeller balance check,Impeller (reconditioned),7.9,2685.76
+2025-12-09,HX-200-001,HX-200,D. Reyes,WO-2025-1018,E-12,Motor overtemperature trip — motor protection relay activated,"Motor fan cowl, thermal fuse",1.0,463.37
+2025-12-09,HX-900-001,HX-900,K. Okafor,WO-2025-1176,,"Scheduled 500h service — bearing lubrication, seal inspection",Grease LB-3 (500g),1.6,281.57
+2025-12-10,HX-500-001,HX-500,J. Whitmore,WO-2025-1109,E-31,Bearing noise — increased vibration on V1 point,Drive-end bearing 6309-ZZ,4.9,908.33
+2025-12-14,HX-900-001,HX-900,S. Patel,WO-2025-1163,,"Scheduled 500h service — bearing lubrication, seal inspection",Grease LB-3 (500g),1.2,160.48
+2025-12-26,HX-200-001,HX-200,J. Whitmore,WO-2025-1034,E-63,Low suction pressure — strainer blocked,"Strainer basket, gasket",1.1,144.99

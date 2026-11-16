@@ -1,0 +1,151 @@
+date,unit_id,model,error_code,action_taken,downtime_h,technician
+2026-01-12,HX200-01,HX-200,E-47,Cleaned suction strainer,1.0,P. Novak
+2026-01-15,HX500-01,HX-500,E-58,Checked supply voltage,4.0,M. Fischer
+2026-01-20,HX200-02,HX-200,E-52,Replaced mechanical seal,5.0,M. Fischer
+2026-01-22,HX200-02,HX-200,E-47,Cleaned suction strainer,2.0,M. Fischer
+2026-01-22,HX900-01,HX-900,E-47,Replaced return filter element,2.0,L. Chen
+2026-01-23,HX200-02,HX-200,E-31,Lubricated bearings,2.5,P. Novak
+2026-01-24,HX900-02,HX-900,E-47,Replaced return filter element,1.5,M. Fischer
+2026-01-27,HX200-04,HX-200,E-47,Cleaned suction strainer,2.5,A. Rao
+2026-01-29,HX200-04,HX-200,E-47,Cleaned suction strainer,2.0,M. Fischer
+2026-01-29,HX500-03,HX-500,E-47,Replaced oil separator element,2.0,S. Okafor
+2026-01-31,HX500-02,HX-500,E-71,Refilled oil,1.0,A. Rao
+2026-02-03,HX500-01,HX-500,E-71,Refilled oil,1.0,S. Okafor
+2026-02-04,HX500-02,HX-500,E-05,Cleaned cooler fins,3.0,M. Fischer
+2026-02-06,HX200-01,HX-200,E-31,Lubricated bearings,2.0,S. Okafor
+2026-02-07,HX200-03,HX-200,E-52,Replaced mechanical seal,9.5,P. Novak
+2026-02-09,HX900-01,HX-900,E-20,Cleaned cooler,3.0,S. Okafor
+2026-02-10,HX200-01,HX-200,E-63,Realigned coupling,5.0,S. Okafor
+2026-02-14,HX200-03,HX-200,E-12,Cleared blocked impeller,4.0,P. Novak
+2026-02-14,HX200-04,HX-200,E-63,Realigned coupling,4.0,P. Novak
+2026-02-15,HX500-01,HX-500,E-47,Replaced oil separator element,1.0,A. Rao
+2026-02-16,HX900-01,HX-900,E-88,Reset relief valve,4.0,P. Novak
+2026-02-19,HX200-03,HX-200,E-52,Replaced mechanical seal,5.0,M. Fischer
+2026-02-20,HX900-02,HX-900,E-09,Refilled tank,1.0,M. Fischer
+2026-02-21,HX500-02,HX-500,E-71,Refilled oil,1.0,L. Chen
+2026-02-22,HX900-01,HX-900,E-47,Replaced return filter element,1.0,A. Rao
+2026-02-22,HX900-01,HX-900,E-47,Replaced return filter element,1.5,M. Fischer
+2026-02-24,HX200-04,HX-200,E-47,Cleaned suction strainer,2.0,P. Novak
+2026-02-24,HX900-02,HX-900,E-47,Replaced return filter element,1.0,A. Rao
+2026-02-28,HX900-01,HX-900,E-47,Replaced return filter element,1.0,M. Fischer
+2026-02-28,HX500-02,HX-500,E-71,Refilled oil,1.0,A. Rao
+2026-03-01,HX500-01,HX-500,E-71,Refilled oil,1.0,S. Okafor
+2026-03-03,HX200-02,HX-200,E-47,Cleaned suction strainer,2.0,A. Rao
+2026-03-05,HX200-01,HX-200,E-12,Cleared blocked impeller,4.5,A. Rao
+2026-03-06,HX500-02,HX-500,E-47,Replaced oil separator element,1.0,L. Chen
+2026-03-07,HX900-02,HX-900,E-47,Replaced return filter element,2.0,S. Okafor
+2026-03-12,HX900-01,HX-900,E-20,Cleaned cooler,3.0,P. Novak
+2026-03-12,HX900-02,HX-900,E-47,Replaced return filter element,1.5,P. Novak
+2026-03-13,HX200-01,HX-200,E-47,Cleaned suction strainer,2.0,A. Rao
+2026-03-13,HX200-01,HX-200,E-52,Replaced mechanical seal,8.5,A. Rao
+2026-03-14,HX900-02,HX-900,E-20,Cleaned cooler,1.5,A. Rao
+2026-03-16,HX900-01,HX-900,E-88,Reset relief valve,6.0,M. Fischer
+2026-03-20,HX200-01,HX-200,E-52,Replaced mechanical seal,6.0,A. Rao
+2026-03-20,HX200-03,HX-200,E-47,Cleaned suction strainer,1.0,S. Okafor
+2026-03-26,HX200-03,HX-200,E-47,Cleaned suction strainer,1.5,P. Novak
+2026-03-27,HX900-02,HX-900,E-20,Cleaned cooler,1.5,A. Rao
+2026-04-01,HX500-01,HX-500,E-05,Cleaned cooler fins,3.0,M. Fischer
+2026-04-01,HX200-01,HX-200,E-31,Lubricated bearings,1.5,A. Rao
+2026-04-02,HX500-03,HX-500,E-47,Replaced oil separator element,1.5,P. Novak
+2026-04-04,HX200-03,HX-200,E-31,Lubricated bearings,2.0,L. Chen
+2026-04-06,HX900-01,HX-900,E-09,Refilled tank,1.0,P. Novak
+2026-04-06,HX200-02,HX-200,E-52,Replaced mechanical seal,5.0,P. Novak
+2026-04-08,HX200-04,HX-200,E-47,Cleaned suction strainer,2.0,L. Chen
+2026-04-08,HX200-01,HX-200,E-52,Replaced mechanical seal,7.5,P. Novak
+2026-04-12,HX200-02,HX-200,E-52,Replaced mechanical seal,9.0,S. Okafor
+2026-04-15,HX200-04,HX-200,E-47,Cleaned suction strainer,1.0,A. Rao
+2026-04-19,HX200-04,HX-200,E-12,Cleared blocked impeller,2.0,L. Chen
+2026-04-26,HX900-01,HX-900,E-20,Cleaned cooler,2.0,L. Chen
+2026-04-28,HX200-02,HX-200,E-47,Cleaned suction strainer,2.5,L. Chen
+2026-04-30,HX200-02,HX-200,E-52,Replaced mechanical seal,5.0,P. Novak
+2026-05-04,HX500-03,HX-500,E-71,Refilled oil,1.5,S. Okafor
+2026-05-15,HX900-01,HX-900,E-20,Cleaned cooler,1.5,A. Rao
+2026-05-16,HX200-03,HX-200,E-47,Cleaned suction strainer,2.0,M. Fischer
+2026-05-19,HX200-02,HX-200,E-31,Lubricated bearings,2.0,S. Okafor
+2026-05-22,HX500-01,HX-500,E-47,Replaced oil separator element,1.0,P. Novak
+2026-05-22,HX200-03,HX-200,E-52,Replaced mechanical seal,4.0,S. Okafor
+2026-05-22,HX200-02,HX-200,E-12,Cleared blocked impeller,2.5,M. Fischer
+2026-05-22,HX900-02,HX-900,E-47,Replaced return filter element,1.5,L. Chen
+2026-05-22,HX200-03,HX-200,E-47,Cleaned suction strainer,1.0,M. Fischer
+2026-05-26,HX200-01,HX-200,E-47,Cleaned suction strainer,1.0,S. Okafor
+2026-05-28,HX900-01,HX-900,E-09,Refilled tank,1.0,P. Novak
+2026-06-08,HX500-03,HX-500,E-47,Replaced oil separator element,1.0,L. Chen
+2026-06-11,HX200-04,HX-200,E-47,Cleaned suction strainer,2.0,L. Chen
+2026-06-14,HX200-03,HX-200,E-52,Replaced mechanical seal,8.0,P. Novak
+2026-06-17,HX200-01,HX-200,E-52,Replaced mechanical seal,6.5,S. Okafor
+2026-06-20,HX200-04,HX-200,E-47,Cleaned suction strainer,1.5,P. Novak
+2026-06-20,HX500-02,HX-500,E-05,Cleaned cooler fins,4.0,L. Chen
+2026-06-21,HX200-03,HX-200,E-47,Cleaned suction strainer,1.5,A. Rao
+2026-06-21,HX200-04,HX-200,E-12,Cleared blocked impeller,2.0,A. Rao
+2026-06-21,HX500-02,HX-500,E-47,Replaced oil separator element,1.0,L. Chen
+2026-06-22,HX500-03,HX-500,E-05,Cleaned cooler fins,2.5,A. Rao
+2026-06-23,HX200-03,HX-200,E-31,Lubricated bearings,2.5,A. Rao
+2026-06-28,HX500-02,HX-500,E-58,Checked supply voltage,3.0,P. Novak
+2026-07-02,HX500-02,HX-500,E-47,Replaced oil separator element,1.5,P. Novak
+2026-07-05,HX200-03,HX-200,E-12,Cleared blocked impeller,1.5,P. Novak
+2026-07-06,HX200-04,HX-200,E-47,Cleaned suction strainer,2.5,P. Novak
+2026-07-06,HX500-01,HX-500,E-47,Replaced oil separator element,2.0,L. Chen
+2026-07-11,HX200-03,HX-200,E-12,Cleared blocked impeller,4.5,L. Chen
+2026-07-12,HX900-02,HX-900,E-20,Cleaned cooler,2.0,A. Rao
+2026-07-13,HX500-01,HX-500,E-47,Replaced oil separator element,1.5,M. Fischer
+2026-07-14,HX200-03,HX-200,E-12,Cleared blocked impeller,2.0,A. Rao
+2026-07-20,HX200-04,HX-200,E-47,Cleaned suction strainer,1.0,L. Chen
+2026-07-21,HX200-01,HX-200,E-12,Cleared blocked impeller,3.0,P. Novak
+2026-07-23,HX200-03,HX-200,E-12,Cleared blocked impeller,3.5,S. Okafor
+2026-07-24,HX200-01,HX-200,E-12,Cleared blocked impeller,2.0,S. Okafor
+2026-07-28,HX500-03,HX-500,E-05,Cleaned cooler fins,1.5,S. Okafor
+2026-08-01,HX500-03,HX-500,E-58,Checked supply voltage,5.0,M. Fischer
+2026-08-06,HX200-03,HX-200,E-47,Cleaned suction strainer,2.5,M. Fischer
+2026-08-09,HX900-02,HX-900,E-47,Replaced return filter element,2.0,P. Novak
+2026-08-12,HX200-04,HX-200,E-52,Replaced mechanical seal,4.0,M. Fischer
+2026-08-15,HX900-02,HX-900,E-47,Replaced return filter element,1.5,M. Fischer
+2026-08-17,HX200-02,HX-200,E-47,Cleaned suction strainer,2.0,P. Novak
+2026-08-19,HX500-03,HX-500,E-47,Replaced oil separator element,1.5,M. Fischer
+2026-08-26,HX200-04,HX-200,E-47,Cleaned suction strainer,2.0,P. Novak
+2026-08-28,HX200-04,HX-200,E-47,Cleaned suction strainer,1.5,L. Chen
+2026-08-28,HX500-02,HX-500,E-58,Checked supply voltage,4.5,S. Okafor
+2026-09-03,HX200-02,HX-200,E-31,Lubricated bearings,1.5,L. Chen
+2026-09-05,HX500-02,HX-500,E-71,Refilled oil,1.0,A. Rao
+2026-09-07,HX500-03,HX-500,E-47,Replaced oil separator element,1.5,A. Rao
+2026-09-07,HX900-01,HX-900,E-88,Reset relief valve,3.5,S. Okafor
+2026-09-09,HX500-03,HX-500,E-47,Replaced oil separator element,1.0,M. Fischer
+2026-09-12,HX500-02,HX-500,E-71,Refilled oil,1.5,S. Okafor
+2026-09-12,HX200-01,HX-200,E-47,Cleaned suction strainer,1.0,P. Novak
+2026-09-13,HX500-03,HX-500,E-05,Cleaned cooler fins,2.0,L. Chen
+2026-09-13,HX900-02,HX-900,E-47,Replaced return filter element,2.5,S. Okafor
+2026-09-13,HX900-01,HX-900,E-47,Replaced return filter element,1.5,L. Chen
+2026-09-14,HX900-02,HX-900,E-20,Cleaned cooler,1.5,M. Fischer
+2026-09-15,HX200-02,HX-200,E-31,Lubricated bearings,2.0,P. Novak
+2026-09-16,HX500-02,HX-500,E-47,Replaced oil separator element,1.5,A. Rao
+2026-09-17,HX200-03,HX-200,E-47,Cleaned suction strainer,1.0,L. Chen
+2026-09-20,HX900-02,HX-900,E-09,Refilled tank,0.5,M. Fischer
+2026-09-24,HX200-01,HX-200,E-47,Cleaned suction strainer,2.0,P. Novak
+2026-09-24,HX200-04,HX-200,E-47,Cleaned suction strainer,1.5,P. Novak
+2026-09-25,HX200-03,HX-200,E-47,Cleaned suction strainer,1.5,L. Chen
+2026-09-26,HX500-03,HX-500,E-47,Replaced oil separator element,2.0,P. Novak
+2026-09-26,HX900-01,HX-900,E-09,Refilled tank,1.0,A. Rao
+2026-09-27,HX500-01,HX-500,E-05,Cleaned cooler fins,3.5,L. Chen
+2026-09-28,HX200-03,HX-200,E-47,Cleaned suction strainer,1.0,A. Rao
+2026-09-28,HX500-02,HX-500,E-05,Cleaned cooler fins,3.5,S. Okafor
+2026-09-28,HX200-02,HX-200,E-47,Cleaned suction strainer,2.5,A. Rao
+2026-09-29,HX500-03,HX-500,E-71,Refilled oil,1.0,A. Rao
+2026-09-29,HX200-03,HX-200,E-52,Replaced mechanical seal,6.0,S. Okafor
+2026-10-01,HX200-02,HX-200,E-47,Cleaned suction strainer,1.5,S. Okafor
+2026-10-02,HX900-02,HX-900,E-09,Refilled tank,1.0,L. Chen
+2026-10-03,HX500-02,HX-500,E-58,Checked supply voltage,5.0,S. Okafor
+2026-10-04,HX500-02,HX-500,E-47,Replaced oil separator element,2.0,L. Chen
+2026-10-04,HX500-01,HX-500,E-47,Replaced oil separator element,1.5,M. Fischer
+2026-10-06,HX900-02,HX-900,E-20,Cleaned cooler,2.0,M. Fischer
+2026-10-08,HX900-01,HX-900,E-47,Replaced return filter element,1.0,P. Novak
+2026-10-11,HX500-03,HX-500,E-71,Refilled oil,0.5,S. Okafor
+2026-10-13,HX500-03,HX-500,E-05,Cleaned cooler fins,2.5,M. Fischer
+2026-10-13,HX200-01,HX-200,E-52,Replaced mechanical seal,5.5,L. Chen
+2026-10-15,HX500-02,HX-500,E-71,Refilled oil,1.5,L. Chen
+2026-10-18,HX500-01,HX-500,E-58,Checked supply voltage,2.0,S. Okafor
+2026-10-18,HX500-03,HX-500,E-71,Refilled oil,1.0,M. Fischer
+2026-10-19,HX200-03,HX-200,E-12,Cleared blocked impeller,2.5,L. Chen
+2026-10-19,HX500-01,HX-500,E-05,Cleaned cooler fins,3.5,P. Novak
+2026-10-24,HX500-03,HX-500,E-71,Refilled oil,1.5,M. Fischer
+2026-10-25,HX900-02,HX-900,E-47,Replaced return filter element,2.0,P. Novak
+2026-10-30,HX200-03,HX-200,E-47,Cleaned suction strainer,1.5,L. Chen
+2026-11-01,HX200-03,HX-200,E-52,Replaced mechanical seal,6.5,L. Chen

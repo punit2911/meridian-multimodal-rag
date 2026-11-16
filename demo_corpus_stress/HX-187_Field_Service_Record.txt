@@ -1,0 +1,35 @@
+# HX-187 Service Record
+
+Document reference: FR-HX187-0088 | Revision D
+
+Archive note: revision lettering is smudged; this copy is for retrieval testing, not operational use.
+
+## 1. Maximum Working Pressure
+
+Maximum working pressure : 23 bar
+
+FIELD COPY | HX-187 | page 1 | FIELD COPY
+
+## 2. Rated Flow
+
+RATED FLOW = 50 m3/h
+
+## 3. Rated Motor Power
+
+Rated motor power: 70 kW
+
+## 4. Maximum Fluid Temperature
+
+Maximum fluid temperature : 175 C    [field copy]
+
+## 5. Impeller Bolt Torque
+
+Impeller bolt torque = 17 Nm
+
+FIELD COPY | HX-187 | page 5 | FIELD COPY
+
+## 6. Intake Filter Replacement Interval
+
+INTAKE FILTER REPLACEMENT INTERVAL: 2000 h
+
+Transcription addendum: `l` and `1` were difficult to distinguish in the faded header.

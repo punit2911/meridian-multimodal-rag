@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Meridian · Evidence-grounded maintenance assistant</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%230f766e'/%3E%3Cpath d='M16 5v22M5 16h22' stroke='white' stroke-width='2'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="/static/app.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand"><span class="logo" aria-hidden="true"></span><div><b>Meridian</b><small>Evidence-grounded multimodal agentic RAG</small></div></div>
+  <nav class="tabs" role="tablist">
+    <button role="tab" data-tab="ask" class="active">Ask</button>
+    <button role="tab" data-tab="kb">Knowledge base</button>
+    <button role="tab" data-tab="eval">Evaluation</button>
+  </nav>
+  <div class="status" id="status" title="Backend status">connecting…</div>
+</header>
+
+<main>
+<!-- ============================ ASK ============================ -->
+<section id="tab-ask" class="tab active">
+  <div class="ask-grid">
+    <div class="col-main">
+      <form id="askForm" class="card composer" autocomplete="off">
+        <label for="question" class="sr">Question</label>
+        <textarea id="question" rows="2" placeholder="Ask about specs, procedures, alarm codes, charts, the maintenance log… or attach a photo of an alarm panel." maxlength="2000"></textarea>
+        <div class="composer-row">
+          <label class="btn ghost" for="imageInput" id="imageBtn">＋ Attach image</label>
+          <input type="file" id="imageInput" accept="image/*" hidden>
+          <span id="imageChip" class="chip" hidden></span>
+          <span class="spacer"></span>
+          <label class="inline">Retrieval
+            <select id="preset"></select>
+          </label>
+          <button class="btn primary" id="askBtn" type="submit">Ask</button>
+        </div>
+      </form>
+      <div class="examples" id="examples"></div>
+      <div id="emptyKb" class="notice" hidden>The knowledge base is empty. <button class="link" id="loadDemoInline">Load the demo corpus</button> or upload your own documents in the Knowledge base tab.</div>
+      <div id="answerArea"></div>
+    </div>
+    <aside class="col-side">
+      <div class="card"><h3>Agent trace</h3><ol id="trace" class="trace"><li class="muted">The reasoning steps appear here while the agent works.</li></ol></div>
+    </aside>
+  </div>
+</section>
+
+<!-- ============================ KB ============================ -->
+<section id="tab-kb" class="tab">
+  <div class="card">
+    <div class="row between wrap">
+      <h2>Documents</h2>
+      <div class="row gap">
+        <button class="btn" id="loadDemo">Load demo corpus</button>
+        <label class="btn primary" for="fileInput">Upload files</label>
+        <input type="file" id="fileInput" multiple hidden>
+        <button class="btn danger" id="resetKb">Clear all</button>
+      </div>
+    </div>
+    <div id="drop" class="drop">Drop PDF, DOCX, CSV/XLSX, TXT/MD or image files here (scanned pages are read with OCR)</div>
+    <div id="uploadLog" class="muted small"></div>
+    <div id="kbStats" class="stats"></div>
+    <table class="tbl" id="docTable"><thead><tr><th>Document</th><th>Type</th><th>Models</th><th>Pages</th><th>Effective</th><th>Chunks</th><th></th></tr></thead><tbody></tbody></table>
+  </div>
+</section>
+
+<!-- ============================ EVAL ============================ -->
+<section id="tab-eval" class="tab">
+  <div class="card">
+    <div class="row between wrap"><h2>Benchmark report</h2>
+      <div class="row gap"><span id="evalMsg" class="muted small"></span><button class="btn primary" id="runEval">Run evaluation</button></div></div>
+    <p class="muted">Golden questions are split into train / held-out test. Retrieval ablations, end-to-end correctness, calibration and a hallucination-injection test are measured on the current knowledge base.</p>
+    <div id="evalBody" class="muted">No report loaded yet.</div>
+  </div>
+</section>
+</main>
+
+<div id="modal" class="modal" hidden><div class="modal-card"><button class="close" id="modalClose" aria-label="Close">×</button><div id="modalBody"></div></div></div>
+<div id="toast" class="toast" hidden></div>
+<script src="/static/app.js"></script>
+</body>
+</html>

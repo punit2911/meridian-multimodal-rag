@@ -1,0 +1,33 @@
+# HX-143 Service Record
+
+Document reference: FR-HX143-0044 | Revision D
+
+OCR review note: some characters in the surrounding boilerplate were unclear; numeric limits below are legible.
+
+## 1. Maximum Working Pressure
+
+Maximum working pressure = 28 bar
+
+FIELD COPY | HX-143 | page 1 | FIELD COPY
+
+## 2. Rated Flow
+
+RATED FLOW: 125 m3/h
+
+## 3. Rated Motor Power
+
+Rated motor power : 18 kW    [field copy]
+
+## 4. Maximum Fluid Temperature
+
+Maximum fluid temperature = 75 C
+
+## 5. Impeller Bolt Torque
+
+Impeller bolt torque: 57 Nm
+
+FIELD COPY | HX-143 | page 5 | FIELD COPY
+
+## 6. Intake Filter Replacement Interval
+
+INTAKE FILTER REPLACEMENT INTERVAL : 1400 h

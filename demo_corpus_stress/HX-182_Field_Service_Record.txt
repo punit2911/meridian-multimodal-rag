@@ -1,0 +1,33 @@
+# HX-182 Service Record
+
+Document reference: FR-HX182-0083 | Revision C
+
+Archive note: revision lettering is smudged; this copy is for retrieval testing, not operational use.
+
+## 1. Maximum Working Pressure
+
+Maximum working pressure = 23 bar
+
+## 2. Rated Flow
+
+Rated flow: 205 m3/h
+
+FIELD COPY | HX-182 | page 2 | FIELD COPY
+
+## 3. Rated Motor Power
+
+RATED MOTOR POWER : 52 kW
+
+## 4. Maximum Fluid Temperature
+
+Maximum fluid temperature = 60 C    [field copy]
+
+## 5. Impeller Bolt Torque
+
+Impeller bolt torque: 22 Nm
+
+## 6. Intake Filter Replacement Interval
+
+Intake filter replacement interval : 1400 h
+
+FIELD COPY | HX-182 | page 6 | FIELD COPY
