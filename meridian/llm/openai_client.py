@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import json
 from typing import Optional
+from urllib.parse import urlsplit
 
 import requests
 
@@ -15,7 +16,7 @@ class OpenAIClient(LLMClient):
 
     def __init__(self, cfg: LLMSettings):
         base = cfg.openai_base_url.rstrip("/")
-        local = any(h in base for h in ("localhost", "127.0.0.1", "0.0.0.0"))
+        local = urlsplit(base).hostname in {"localhost", "127.0.0.1", "0.0.0.0", "host.docker.internal"}
         if not cfg.openai_api_key and not local:
             raise LLMError("OPENAI_API_KEY is not set")
         self.cfg = cfg

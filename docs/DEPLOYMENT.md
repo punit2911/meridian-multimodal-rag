@@ -14,6 +14,8 @@ The default corpus contains 10 mixed-format files. To add the 100 generated stre
 
 The Qdrant service is free and self-hosted. No vector database account or API key is required. The default LSA embedder also remains offline and does not require an LLM API key. To use the in-memory dense index instead, set `MERIDIAN_VECTOR_STORE=memory`.
 
+For Ollama on the Docker host, set `OPENAI_BASE_URL=http://host.docker.internal:11434/v1` and `MERIDIAN_AGENT_MODE=auto` in `.env`. `localhost` inside Meridian's container points back to the container, while `MERIDIAN_AGENT_MODE=policy` disables LLM writing. Recreate the service after changing these settings: `docker compose up -d --no-build --force-recreate meridian`.
+
 ## Configuration (environment variables)
 | Variable | Default | Meaning |
 |---|---|---|

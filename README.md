@@ -82,12 +82,15 @@ ollama pull llama3.1
 MERIDIAN_LLM_PROVIDER=openai
 OPENAI_BASE_URL=http://localhost:11434/v1
 MERIDIAN_LLM_MODEL=llama3.1
+MERIDIAN_AGENT_MODE=auto
 
 # 3. Start Meridian (it auto-loads .env)
 python -m meridian
 ```
 
 > **Windows note:** Ollama usually starts automatically on install. If you see `address already in use` when running `ollama serve`, it's already running — just pull the model and start Meridian.
+
+> **Docker note:** When Meridian runs in Docker Compose, set `OPENAI_BASE_URL=http://host.docker.internal:11434/v1` instead of `localhost`. Inside a container, `localhost` refers to that container, not the Windows host. Also set `MERIDIAN_AGENT_MODE=auto` to enable LLM writing (`policy` forces offline mode). Recreate Meridian after changing `.env` with `docker compose up -d --no-build --force-recreate meridian`.
 
 ### Using Anthropic or OpenAI
 
